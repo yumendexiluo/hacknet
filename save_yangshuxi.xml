@@ -4,10 +4,47 @@
 <Flags OriginalFaction="entropy"/>
 <OriginalVisibleNodes>1,118,112,124,114,123,99,103,115,78,2,113,127,120,117,119</OriginalVisibleNodes>
 <ConditionalActions>
+<OnConnect target="dhs" needsMissionComplete="True" requiredFlags="" >
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10" >任务完成@Coel - 真抱歉让你不得不去清理日志。我已经尽可能做得不留痕迹了。</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1" >谢谢。我其实希望能够亲自做这件事，但是……你懂的。</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3" >我懂，别担心。你的任务还顺利吗？</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5" >干得不错，@D3f4ult</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9" >乐意效劳，老大。</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2" >我已经再次检查过Hermetic Alchemist的全部服务器，确保操作日志全部清除。从现在起，没有任何线索能追查到我们了。</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2" >话说有人将断开连接的日志留在了各个地方，但别担心，我可没偷看哦。</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5" >呃，这个…… @Kaguya - 你能否帮我们找些工具来对付断连日志文件？</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1" >你是说，除了forkbomb之外的东西？</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1" >forkbomb太暴力了 :\</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1" >嗯嗯嗯，我也是这么觉得。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1" >我会想想办法。但我可打不了包票。</AddIRCMessage>
+
+</OnConnect>
+<OnConnect target="dhs" needsMissionComplete="False" requiredFlags="startupBreakinTrapPassed" >
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220" >@channel紧急情况 - @yangshuxi的机器在四处发送警告信息——他似乎遇到麻烦了。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210" >@Coel - 取消你现在的任务，我这里需要你帮忙</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200" >!ATTACHMENT:link#%#yangshuxi PC#%#221.184.54.246</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194" >那是@yangshuxi - 搞清楚发生了什么，然后去帮帮他。</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185" >@Kaguya，我正在处理。</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180" >需要我帮忙吗？</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175" >需要，稍等</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160" >来，你去调查@yangshuxi正在进行的任务，看看能不能追查到攻击来源。务必小心。</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155" >这就去。</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120" >这是虚拟机级攻击，我已经尽力了，现在要看@yangshuxi自己的本事了……</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115" >干得不错，@Coel。我会留意它的。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110" >有什么消息吗，@D3f4ult？</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90" >我发现了一些可疑链接，马上就能把这事搞清楚。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85" >继续。</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1" >@yangshuxi，欢迎回来</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8" >干得漂亮，@yangshuxi</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14" >喂，@yangshuxi，Kaguya让我去追查攻击来源，我查到一个防护严密的代理服务器。不过你应该能够通过日志追踪到进攻主机。</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25" >当然了，这一开始就是你的猎物，但如果你想搞个大事情，D3f4ult风格的，就发给我个IP，我来帮你搞定他</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40" >此外，我要给未来的自己提个醒 - 如果要找其他黑客的麻烦，别忘了给自己开个shell以备随时激活traps……</AddIRCMessage>
+
+</OnConnect>
 </ConditionalActions>
 </DLC><Flags>startVer:v5.069,TutorialComplete,FirstAlertComplete,progress_entropy_Unlocked,eosPathStarted,dlc_start_entropy,KaguyaTrialComplete,DLC_Player_IRC_Authenticated,themeswitch_run_Unlocked</Flags>
 <NetworkMap sort="Scatter" >
-<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21</visible>
+<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21 53 51</visible>
 <network>
 <computer name="yangshuxi PC" ip="221.184.54.246" type="4" spec="player" id="playerComp"  >
 <location x="0.1" y="0.5" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="221.184.54.246" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
@@ -26,22 +63,15 @@
 </folder>
 <folder name="misc">
 </folder>
-<file name="Notes.txt">SSLTrojan |##LSB##|1|##RSB##| |##LSB##|2|##RSB##| |##LSB##|3|##RSB##| 1 =
-SSL端口的端口号2=|##QOT##|-s|##QOT##|代表SSH隧道
-|##QOT##|-f”代表FTP隧道|##QOT##|-w|##QOT##|代表HTTP
-隧道3=你穿过的其他服务端口号。比如
-：|##QOT##|SSLTrojan 443 -w 80|##QOT##|
-
-----------
-
-调查该网络，追查这名管理员，并下载
-任何你认为相关的内容。
+<file name="Notes.txt">从删除服务器下载内存取证工具
+分析内存转储1和2。
+寻找转储文件内的连接（|##QOT##|scan
+|##LSB##|ip|##RSB##||##QOT##|指令会在不将你从取证视图中移除
+的情况下ping服务器）
 
 
-你可以在聊天频道里报告任何可能对其
-他人有用的东西。
-
-把相关内容上传到共享服务器。</file>
+删除反编译的内存转储，并攻击包含它
+们的系统。</file>
 <file name="Entropy_Induction_Test">
   祝贺你, 
   下载此文件以完成您的入组测试. 
@@ -159,8 +189,31 @@ Vau，神之名的第三个字母，生命之树的第三个枝丫。
 Work:
 66.96.149.16
 </file>
+<file name="Memory_Forensics_Readme.txt">
+导航至包涵要分析的存储器转储所在的文件夹。
+运行命令：
+MemForensics |##LSB##|文件名|##RSB##|
+记住，你可以使用TAB来自动完成文件名和路径。
+处理（索引）转储需要花一些时间，随后你将得到扫描工具。
+每个选项都将处理存储器并尝试挑选出相关数据。
+其中并不涉及任何损失或追踪的危险，因为本工具并不会杀死任何存储器——只是读取并打印。
+  </file>
+<file name="listen.ini">
+    
+    #LISTEN
+  
+  </file>
+<file name="SN_MF_Decompiled.zip">100100101001011011011011110000111010001101011110110111010110111100011000000101000010000000111110010000101100011100010110011010101101110111001110111010111100100011101111001111101010001011010011000110101001100000011000001001101101100111000101111110111011001000101001101110000111011111100110010001110100101101110000111001011011100011101010101010101000101111000111010101111111110000110100111001001100010001001111110100101100000010110111101001101010110110110000111000001110011111010100010010101101101100110111111110011101011101010010010001101110101111100101101010101001111011111100100111100111001001011101110101110011011010001000111110110011100001001010100110101001000011010101101001011100011100010111011111101111101001111010100110101001111011001001001111011111010000100010111000110011010100100101011000010110101001110100001110110110001010110010011010011101010101101011111111010001011100100011101000111000011010101000110110001010010110001010100111011011111111100110101110100011000111100100011101111110001111101111110010011100101101111111101111100100101010111010000110100011000111110101100111110010001111010011000000100101010010000010111011101110011110010111110001110011010011000000011011110100010001111101111111110010011100001010100011101011011001110001100001100010011011000111100001110010111111110000001111000010001010100100010000011100101100111010111111111110100010111101111111111011000100001001100011110110001011110100011001101111011011101000110011110100110010011011010110010110110000110111101000100111000111010000010111111111001100100100001111010111111100001111111001011100011101011001010000001011101111111011010110011011100111011001111111110101100001010010110100001110000101001011101111101001010000110111111011001110011000101001100101101011010101110100101110010000101</file>
 </folder>
 <folder name="log">
+<file name="@5190_#SHELL_Overload_@_88.29.144.6">@5190 #SHELL_Overload_@_88.29.144.6</file>
+<file name="@4956_#SHELL_Overload_@_88.29.144.6">@4956 #SHELL_Overload_@_88.29.144.6</file>
+<file name="@4943_221.184.54.246_Disconnected">@4943 221.184.54.246 Disconnected</file>
+<file name="@4940_221.184.54.246_Opened_#SHELL">@4940 221.184.54.246_Opened_#SHELL</file>
+<file name="@4938_Connection:_from_221.184.54.246">@4938 Connection: from 221.184.54.246</file>
+<file name="@4003_FileRead:_by_221.184.54.246_-_file:Memory_Forensics_Readme.txt">@4003 FileRead: by 221.184.54.246 - file:Memory_Forensics_Readme.txt</file>
+<file name="@3993_Connection:_from_221.184.54.246">@3993 Connection: from 221.184.54.246</file>
+<file name="@0_Connection:_from_221.184.54.246_2">@0 Connection: from 221.184.54.246</file>
 <file name="@1234_221.184.54.246_Disconnected">@1234 221.184.54.246 Disconnected</file>
 <file name="@1227_FileRead:_by_221.184.54.246_-_file:Rebis.txt">@1227 FileRead: by 221.184.54.246 - file:Rebis.txt</file>
 <file name="@1223_FileRead:_by_221.184.54.246_-_file:DefaultBootModule.txt">@1223 FileRead: by 221.184.54.246 - file:DefaultBootModule.txt</file>
@@ -187,6 +240,7 @@ Work:
 <file name="ThemeChanger.exe">1001001111010101101111001001110110110100110001110001010110110010110101111101000111100110110011010110011111110110000001001001101010110011111101100111111111000000110000110101000100100111100110110000001001010101000100110011011011011000100101000101000101011110100101111101101010110001100000011010111100001011001111011010011011110101111110010010011101110011101101110100100011111110001011000010111100110100101110100100111010100110011101010111100110</file>
 <file name="SSLTrojan.exe">1000101110111111011111000011100001111011111011101110001010010010010100111011011100111001111110110100100110111100101110010110101001101111001100001010001111111111011100101111110001011001111000010110110010111101011101010101000011100100100000010000011100110010111011011011100001110010111110101001101101101101100100110100111101110101001000011011101001011101101010010011111010110000011100000010110110111010101001011110001011110010111001110100</file>
 <file name="SignalScrambler.exe">10111001001000011101110100110110000111010100101000011110011010111101110101111110111001001001100011001011111111010011011111101001110100101000000111011110111011100010101000111100011111100101011110111000111111011010001011110101110100010011001111010101101000100011011101111111111000101101100011110111011111011101110101010011111101100111111111000101010011111111101111110111001110100111011100011100001100010101111111100111110111000011000011</file>
+<file name="MemForensics.exe">11101110010011100010101001000110110110101000010111000110101110110111101101110110101011100110001111111011110101100000110001110110101000001101001111101001000000111110111110010111111111100010100110110000001010010110101110110111100000001100110110001010100010101111010110100001001001111110110100101111100011111100010011101111000101000011101001010000001100010101100111010011110111001001100011011001101011000101001011010010111111010101001</file>
 </folder>
 <folder name="sys">
 <file name="x-server.sys">6711711511611110956___#DEC_ENC::::::164371 180769 160727 182591 162549 164371 162549
@@ -4888,6 +4942,15 @@ AAAAAAAAAAAAAAAAAAAAAA==
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@5186_221.184.54.246_Disconnected">@5186 221.184.54.246 Disconnected</file>
+<file name="@5118_221.184.54.246_Disconnected">@5118 221.184.54.246 Disconnected</file>
+<file name="@4863_221.184.54.246_Disconnected">@4863 221.184.54.246 Disconnected</file>
+<file name="@4754_221.184.54.246_Disconnected">@4754 221.184.54.246 Disconnected</file>
+<file name="@4411_221.184.54.246_Disconnected">@4411 221.184.54.246 Disconnected</file>
+<file name="@4029_221.184.54.246_Disconnected">@4029 221.184.54.246 Disconnected</file>
+<file name="@3993_221.184.54.246_Disconnected">@3993 221.184.54.246 Disconnected</file>
+<file name="@3930_221.184.54.246_Disconnected">@3930 221.184.54.246 Disconnected</file>
+<file name="@3876_221.184.54.246_Disconnected">@3876 221.184.54.246 Disconnected</file>
 <file name="@1571_221.184.54.246_Disconnected">@1571 221.184.54.246 Disconnected</file>
 <file name="@1555_221.184.54.246_Disconnected">@1555 221.184.54.246 Disconnected</file>
 <file name="@1486_221.184.54.246_Disconnected">@1486 221.184.54.246 Disconnected</file>
@@ -4919,18 +4982,41 @@ AAAAAAAAAAAAAAAAAAAAAA==
 </folder>
 <folder name="HomeBase">
 <folder name="contracts">
-<file name="Contact_25.ctc">Bibliotheque Contract #0
+<file name="Contact_17.ctc">Bibliotheque Contract #0
 --------------------------------------------  #%#
-Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 49 46 120 109 108
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 65 116 116 97 99 107 47 65 116 116 97 99 107 77 105 115 115 105 111 110 95 78 80 67 49 46 120 109 108
   #%#
-Client = 25  #%#
+Client = 17  #%#
 Target = UNKNOWN  #%#
 RequiredRank = 0  #%#
 Difficulty = 0
   #%#
-Title = 内存取证(1/3)  #%#
+Title = 炼金术师清理任务  #%#
 Posting = 
-分析内存转储（1-2）以找出进入一个安全服务器的连接。
+不着痕迹地穿越炼金术师的网络，再次寻找痕迹和日志。
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 0  #%#
+Tag = Coel  #%#
+</file>
+<file name="Contact_196.ctc">Bibliotheque Contract #0
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 65 116 116 97 99 107 47 65 116 116 97 99 107 77 105 115 115 105 111 110 46 120 109 108
+  #%#
+Client = 196  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 攻击者档案  #%#
+Posting = 
+一名相对不太知名的黑客‘Striker’据说制作了一个非常出色的信息转储生成器，我们想得到一份。
   
   #%#
 E_TargetTrack =   #%#
@@ -4941,40 +5027,18 @@ E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 0  #%#
 </file>
-<file name="Contact_157.ctc">Bibliotheque Contract #0
+<file name="Contact_126.ctc">Bibliotheque Contract #1
 --------------------------------------------  #%#
-Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 50 46 120 109 108
-  #%#
-Client = 157  #%#
-Target = UNKNOWN  #%#
-RequiredRank = 0  #%#
-Difficulty = 0
-  #%#
-Title = 内存取证(2/3)  #%#
-Posting = 
-分析内存转储（3-4）以找出进入一个安全服务器的连接。
-  
-  #%#
-E_TargetTrack =   #%#
-E_TargetTaskData =   #%#
-E_TargetTaskTrack =   #%#
-E2_TargetTaskTrack_1 =   #%#
-E3_TargetTaskTrack_2 =   #%#
-E3_TargetTaskTrack_3 = cmd  #%#
-E4_ContractReg = 0  #%#
-</file>
-<file name="Contact_186.ctc">Bibliotheque Contract #0
---------------------------------------------  #%#
-Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 51 46 120 109 108
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 65 116 116 97 99 107 47 65 116 116 97 99 107 77 105 115 115 105 111 110 95 78 80 67 50 46 120 109 108
   #%#
 Client = UNKNOWN  #%#
 Target = UNKNOWN  #%#
 RequiredRank = 0  #%#
 Difficulty = 0
   #%#
-Title = 内存取证(3/3)  #%#
+Title = Personal Ties  #%#
 Posting = 
-    分析内存转储（5-6）以找出进入一个安全服务器的连接。
+为Coel解决一件私人事务。
   
   #%#
 E_TargetTrack =   #%#
@@ -4983,7 +5047,7 @@ E_TargetTaskTrack =   #%#
 E2_TargetTaskTrack_1 =   #%#
 E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
-E4_ContractReg = 0  #%#
+E4_ContractReg = 1  #%#
 Tag = D3f4ult  #%#
 </file>
 </folder>
@@ -5189,6 +5253,74 @@ E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 1  #%#
 Tag = D3f4ult  #%#
 </file>
+<file name="Contact_25.ctc">Bibliotheque Contract #1
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 49 46 120 109 108
+  #%#
+Client = 25  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 内存取证(1/3)  #%#
+Posting = 
+分析内存转储（1-2）以找出进入一个安全服务器的连接。
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 1  #%#
+Tag = yangshuxi  #%#
+</file>
+<file name="Contact_157.ctc">Bibliotheque Contract #1
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 50 46 120 109 108
+  #%#
+Client = 157  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 内存取证(2/3)  #%#
+Posting = 
+分析内存转储（3-4）以找出进入一个安全服务器的连接。
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 1  #%#
+</file>
+<file name="Contact_232.ctc">Bibliotheque Contract #1
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 68 76 67 47 77 105 115 115 105 111 110 115 47 77 101 109 70 111 114 101 110 115 105 99 115 47 49 95 77 101 109 70 111 114 101 110 115 105 99 115 51 46 120 109 108
+  #%#
+Client = UNKNOWN  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 内存取证(3/3)  #%#
+Posting = 
+    分析内存转储（5-6）以找出进入一个安全服务器的连接。
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 1  #%#
+Tag = D3f4ult  #%#
+</file>
 </folder>
 <folder name="runtime">
 </folder>
@@ -5269,7 +5401,9 @@ Tag = D3f4ult  #%#
 #10:41//D3f4ult//此外，*某人*在Coagula上留下了一些日志，并且*那位某人*显然应该赶快把日志清理干净:P
 #10:41//Coel//._.
 #10:41//Coel//让我一个人漂浮在耻辱之海里，别理我
-#10:41//D3f4ult//那你漂的可真快啊 :P</file>
+#10:41//D3f4ult//那你漂的可真快啊 :P
+#12:57//Channel//CONTRACT CLAIMED: @yangshuxi claimed contract |##QOT##|内存取证(1/3)|##QOT##|
+#13:21//Channel//CONTRACT COMPLETE: @yangshuxi completed contract |##QOT##|内存取证(1/3)|##QOT##|</file>
 <file name="dhs_config.sys">##DHS_CONFIG
 ThemeColor = 38,201,155
 ServiceName = DHS
@@ -5345,6 +5479,14 @@ AllowContractAbbandon = False
 </folder>
 </folder>
 <folder name="log">
+<file name="@5082_FileCreated:_by_221.184.54.246_-_file:SN_MF_Decompiled.zip">@5082 FileCreated: by 221.184.54.246 - file:SN_MF_Decompiled.zip</file>
+<file name="@5067_Connection:_from_221.184.54.246">@5067 Connection: from 221.184.54.246</file>
+<file name="@4143_221.184.54.246_Disconnected">@4143 221.184.54.246 Disconnected</file>
+<file name="@4029_Connection:_from_221.184.54.246">@4029 Connection: from 221.184.54.246</file>
+<file name="@3969_FileCopied:_by_221.184.54.246_-_file:Memory_Forensics_Readme.txt">@3969 FileCopied: by 221.184.54.246 - file:Memory_Forensics_Readme.txt</file>
+<file name="@3962_FileCopied:_by_221.184.54.246_-_file:MemForensics.exe">@3962 FileCopied: by 221.184.54.246 - file:MemForensics.exe</file>
+<file name="@3930_Connection:_from_221.184.54.246">@3930 Connection: from 221.184.54.246</file>
+<file name="@3876_Connection:_from_221.184.54.246">@3876 Connection: from 221.184.54.246</file>
 <file name="@1757_FileCreated:_by_221.184.54.246_-_file:SignalScrambler.exe">@1757 FileCreated: by 221.184.54.246 - file:SignalScrambler.exe</file>
 <file name="@1743_Connection:_from_221.184.54.246">@1743 Connection: from 221.184.54.246</file>
 <file name="@1562_FileCreated:_by_221.184.54.246_-_file:home.txt">@1562 FileCreated: by 221.184.54.246 - file:home.txt</file>
@@ -5400,6 +5542,7 @@ MemForensics |##LSB##|文件名|##RSB##|
 </folder>
 <folder name="Drop">
 <folder name="Uploads">
+<file name="SN_MF_Decompiled.zip">100100101001011011011011110000111010001101011110110111010110111100011000000101000010000000111110010000101100011100010110011010101101110111001110111010111100100011101111001111101010001011010011000110101001100000011000001001101101100111000101111110111011001000101001101110000111011111100110010001110100101101110000111001011011100011101010101010101000101111000111010101111111110000110100111001001100010001001111110100101100000010110111101001101010110110110000111000001110011111010100010010101101101100110111111110011101011101010010010001101110101111100101101010101001111011111100100111100111001001011101110101110011011010001000111110110011100001001010100110101001000011010101101001011100011100010111011111101111101001111010100110101001111011001001001111011111010000100010111000110011010100100101011000010110101001110100001110110110001010110010011010011101010101101011111111010001011100100011101000111000011010101000110110001010010110001010100111011011111111100110101110100011000111100100011101111110001111101111110010011100101101111111101111100100101010111010000110100011000111110101100111110010001111010011000000100101010010000010111011101110011110010111110001110011010011000000011011110100010001111101111111110010011100001010100011101011011001110001100001100010011011000111100001110010111111110000001111000010001010100100010000011100101100111010111111111110100010111101111111111011000100001001100011110110001011110100011001101111011011101000110011110100110010011011010110010110110000110111101000100111000111010000010111111111001100100100001111010111111100001111111001011100011101011001010000001011101111111011010110011011100111011001111111110101100001010010110100001110000101001011101111101001010000110111111011001110011000101001100101101011010101110100101110010000101</file>
 <file name="SignalScrambler.exe">10111001001000011101110100110110000111010100101000011110011010111101110101111110111001001001100011001011111111010011011111101001110100101000000111011110111011100010101000111100011111100101011110111000111111011010001011110101110100010011001111010101101000100011011101111111111000101101100011110111011111011101110101010011111101100111111111000101010011111111101111110111001110100111011100011100001100010101111111100111110111000011000011</file>
 <file name="home.txt">Home:
 66.175.58.9
@@ -5664,6 +5807,11 @@ LUKE的睡觉时间约定
   </file>
 </folder>
 <folder name="log">
+<file name="@5191_#SHELL_Overload_@_88.29.144.6">@5191 #SHELL_Overload_@_88.29.144.6</file>
+<file name="@4957_#SHELL_Overload_@_88.29.144.6">@4957 #SHELL_Overload_@_88.29.144.6</file>
+<file name="@4949_221.184.54.246_Disconnected">@4949 221.184.54.246 Disconnected</file>
+<file name="@4945_221.184.54.246_Opened_#SHELL">@4945 221.184.54.246_Opened_#SHELL</file>
+<file name="@4943_Connection:_from_221.184.54.246">@4943 Connection: from 221.184.54.246</file>
 <file name="@2750_FileRead:_by_221.184.54.246_-_file:homework_list.txt">@2750 FileRead: by 221.184.54.246 - file:homework_list.txt</file>
 <file name="@2744_FileRead:_by_221.184.54.246_-_file:bedtime_restrictions.txt">@2744 FileRead: by 221.184.54.246 - file:bedtime_restrictions.txt</file>
 <file name="@2733_FileRead:_by_221.184.54.246_-_file:asdfkjhj.txt">@2733 FileRead: by 221.184.54.246 - file:asdfkjhj.txt</file>
@@ -5856,11 +6004,9 @@ he
 </file>
 </folder>
 <folder name="log">
-<file name="@505_221.184.54.246_Disconnected">@505 221.184.54.246 Disconnected</file>
-<file name="@500_Connection:_from_221.184.54.246">@500 Connection: from 221.184.54.246</file>
-<file name="@481_221.184.54.246_Disconnected">@481 221.184.54.246 Disconnected</file>
-<file name="@475_Connection:_from_221.184.54.246">@475 Connection: from 221.184.54.246</file>
-<file name="@264_221.184.54.246_Disconnected">@264 221.184.54.246 Disconnected</file>
+<file name="@4428_221.184.54.246_Disconnected">@4428 221.184.54.246 Disconnected</file>
+<file name="@4417_Connection:_from_221.184.54.246">@4417 Connection: from 221.184.54.246</file>
+<file name="@4380_221.184.54.246_Disconnected">@4380 221.184.54.246 Disconnected</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -5921,6 +6067,8 @@ he
 56873 56873 96957 96957 96957 96957 188057 222675 217209 229963 248183 96957 224497 229963 246361 222675 255471 215387 235429 235429 96957 242717 215387 248183 248183 96957 229963 248183 96957 100601 219031 235429 215387 246361 229963 250005 259115 100601 56873 56873 96957 96957</file>
 </folder>
 <folder name="log">
+<file name="@4417_221.184.54.246_Disconnected">@4417 221.184.54.246 Disconnected</file>
+<file name="@4411_Connection:_from_221.184.54.246">@4411 Connection: from 221.184.54.246</file>
 <file name="@500_221.184.54.246_Disconnected">@500 221.184.54.246 Disconnected</file>
 <file name="@481_Connection:_from_221.184.54.246">@481 Connection: from 221.184.54.246</file>
 <file name="@390_221.184.54.246_Disconnected">@390 221.184.54.246 Disconnected</file>
@@ -13740,10 +13888,10 @@ VQ7DR9W5IL3G88QB6BXP</Block>
 </filesystem>
 </computer>
 <computer name="iodependency~Atlas" ip="88.29.144.6" type="4" spec="none" id="dMF_1_Misc" icon="DLCServer" >
-<location x="0.437326" y="0.5193288" /><security level="3" traceTime="125" proxyTime="6" portsToCrack="2" adminIP="173.231.35.62" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
+<location x="0.437326" y="0.5193288" /><security level="3" traceTime="125" proxyTime="6" portsToCrack="2" adminIP="221.184.54.246" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
 <portsOpen> 6881 443 21</portsOpen>
 <users>
-<user name="admin" pass="4TL4S" type="0" known="False" />
+<user name="admin" pass="rosebud" type="0" known="True" />
 <user name="listen" pass="4TL4S" type="1" known="False" />
 </users>
 <daemons>
@@ -13752,10 +13900,13 @@ VQ7DR9W5IL3G88QB6BXP</Block>
 <folder name="/">
 <folder name="home">
 <folder name="MemoryForensics">
-<file name="SN_MF_Decompiled.zip">100100101001011011011011110000111010001101011110110111010110111100011000000101000010000000111110010000101100011100010110011010101101110111001110111010111100100011101111001111101010001011010011000110101001100000011000001001101101100111000101111110111011001000101001101110000111011111100110010001110100101101110000111001011011100011101010101010101000101111000111010101111111110000110100111001001100010001001111110100101100000010110111101001101010110110110000111000001110011111010100010010101101101100110111111110011101011101010010010001101110101111100101101010101001111011111100100111100111001001011101110101110011011010001000111110110011100001001010100110101001000011010101101001011100011100010111011111101111101001111010100110101001111011001001001111011111010000100010111000110011010100100101011000010110101001110100001110110110001010110010011010011101010101101011111111010001011100100011101000111000011010101000110110001010010110001010100111011011111111100110101110100011000111100100011101111110001111101111110010011100101101111111101111100100101010111010000110100011000111110101100111110010001111010011000000100101010010000010111011101110011110010111110001110011010011000000011011110100010001111101111111110010011100001010100011101011011001110001100001100010011011000111100001110010111111110000001111000010001010100100010000011100101100111010111111111110100010111101111111111011000100001001100011110110001011110100011001101111011011101000110011110100110010011011010110010110110000110111101000100111000111010000010111111111001100100100001111010111111100001111111001011100011101011001010000001011101111111011010110011011100111011001111111110101100001010010110100001110000101001011101111101001010000110111111011001110011000101001100101101011010101110100101110010000101</file>
 </folder>
 </folder>
 <folder name="log">
+<file name="@5248_LOCAL_ADMIN_Closed_Port#21">@5248 LOCAL_ADMIN Closed Port#21</file>
+<file name="@5248_LOCAL_ADMIN_Closed_Port#443">@5248 LOCAL_ADMIN Closed Port#443</file>
+<file name="@5248_LOCAL_ADMIN_Closed_Port#6881">@5248 LOCAL_ADMIN Closed Port#6881</file>
+<file name="@5248_221.184.54.246_Disconnected">@5248 221.184.54.246 Disconnected</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -13851,10 +14002,10 @@ c级以下的内部间隙无访问权限
 </filesystem>
 </computer>
 <computer name="Snackintosh_中继" ip="167.72.73.56" type="4" spec="none" id="dMF_2_Passthru"  >
-<location x="0.7030193" y="0.4351601" /><security level="2" traceTime="125" portsToCrack="3" adminIP="104.215.8.37" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
+<location x="0.7030193" y="0.4351601" /><security level="2" traceTime="125" portsToCrack="3" adminIP="167.72.73.56" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
 <portsOpen> 6881 443 21 22 80</portsOpen>
 <users>
-<user name="admin" pass="4TL4S" type="0" known="False" />
+<user name="admin" pass="7777777" type="0" known="False" />
 </users>
 <daemons>
 </daemons>
@@ -13863,6 +14014,17 @@ c级以下的内部间隙无访问权限
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@4779_221.184.54.246_Disconnected">@4779 221.184.54.246 Disconnected</file>
+<file name="@4754_Connection:_from_221.184.54.246">@4754 Connection: from 221.184.54.246</file>
+<file name="@4596_221.184.54.246_Disconnected">@4596 221.184.54.246 Disconnected</file>
+<file name="@4577_Connection:_from_221.184.54.246">@4577 Connection: from 221.184.54.246</file>
+<file name="@4572_LOCAL_ADMIN_Closed_Port#22">@4572 LOCAL_ADMIN Closed Port#22</file>
+<file name="@4572_LOCAL_ADMIN_Closed_Port#21">@4572 LOCAL_ADMIN Closed Port#21</file>
+<file name="@4572_LOCAL_ADMIN_Closed_Port#443">@4572 LOCAL_ADMIN Closed Port#443</file>
+<file name="@4572_LOCAL_ADMIN_Closed_Port#6881">@4572 LOCAL_ADMIN Closed Port#6881</file>
+<file name="@4572_221.184.54.246_Disconnected">@4572 221.184.54.246 Disconnected</file>
+<file name="@4558_FileCopied:_by_221.184.54.246_-_file:listen.ini">@4558 FileCopied: by 221.184.54.246 - file:listen.ini</file>
+<file name="@4542_FileRead:_by_221.184.54.246_-_file:LISTEN.ini">@4542 FileRead: by 221.184.54.246 - file:LISTEN.ini</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -33707,14 +33869,7 @@ http://angelus-hellion.deviantart.com
 </mission><branchMissions>
 </branchMissions><AllFactions current="Bibliotheque">
 	<EntropyFaction name="Entropy" id="entropy" neededVal="5" playerVal="4" playerHasPassed="False" />	<Faction name="lelzSec" id="lelzSec" neededVal="1000" playerVal="0" playerHasPassed="False" />	<HubFaction name="CSEC" id="hub" neededVal="10" playerVal="0" playerHasPassed="False" />	
-<CustomFaction name="DLC Faction" id="Bibliotheque" neededVal="100" playerVal="4" playerHasPassed="False" >
-<Action ValueRequired="5" >
-	<AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission_NPC1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="False" />
-	<AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission.xml" TargetComp="dhs" AssignmentTag="" StartsComplete="False" />
-	<AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission_NPC2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="True" />
-	<RunFunction FunctionName="changeSongDLC" FunctionValue="1" Delay="0" DelayHost="" />
-	<AddConditionalActions Filepath="DLC/ActionScripts/AttackPrimerResponseActions.xml" DelayHost="" Delay="0" />
-</Action>
+<CustomFaction name="DLC Faction" id="Bibliotheque" neededVal="100" playerVal="5" playerHasPassed="False" >
 <Action ValueRequired="6" >
 	<AddMissionToHubServer MissionFilepath="DLC/Missions/Set/3/ItFollows/PlayerMission.xml" TargetComp="dhs" AssignmentTag="" StartsComplete="False" />
 	<AddMissionToHubServer MissionFilepath="DLC/Missions/Set/3/D3fAFKMission.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="True" />
@@ -33826,4 +33981,4 @@ http://angelus-hellion.deviantart.com
 	<AddIRCMessage Author="Coel" TargetComp="dhs" Delay="121" >开始！</AddIRCMessage>
 	<RunFunction FunctionName="flashUI" FunctionValue="0" Delay="121" DelayHost="dhs" />
 </Action>
-</CustomFaction></AllFactions><other music="DLC\Music\HOME_Resonance" homeNode="dhs" homeAssetsNode="dhsDrop" /></HacknetSave>
+</CustomFaction></AllFactions><other music="DLC\Music\Remi2" homeNode="dhs" homeAssetsNode="dhsDrop" /></HacknetSave>
