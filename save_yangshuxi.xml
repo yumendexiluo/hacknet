@@ -5,9 +5,9 @@
 <OriginalVisibleNodes></OriginalVisibleNodes>
 <ConditionalActions>
 </ConditionalActions>
-</DLC><Flags>startVer:v5.069,TutorialComplete,FirstAlertComplete,progress_entropy_Unlocked,eosPathStarted,dlc_start_entropy,KaguyaTrialComplete,DLC_Player_IRC_Authenticated,themeswitch_run_Unlocked,startupBreakinTrapActivated,startupBreakinTrapPassed,AircraftInfoOverlayActivated,DLC_PlaneCrashedResponseTriggered,DLC_PlaneResult,AircraftInfoOverlayDeactivated,dlc_complete,dlc_complete_FromEntropy,ThemeHackTransitionAssetsAdded,BootFailure,BootFailureThemeSongChange,trace_close_Unlocked,CSEC_Member,progress_csec_Unlocked,themeChangerAdded</Flags>
+</DLC><Flags>startVer:v5.069,TutorialComplete,FirstAlertComplete,progress_entropy_Unlocked,eosPathStarted,dlc_start_entropy,KaguyaTrialComplete,DLC_Player_IRC_Authenticated,themeswitch_run_Unlocked,startupBreakinTrapActivated,startupBreakinTrapPassed,AircraftInfoOverlayActivated,DLC_PlaneCrashedResponseTriggered,DLC_PlaneResult,AircraftInfoOverlayDeactivated,dlc_complete,dlc_complete_FromEntropy,ThemeHackTransitionAssetsAdded,BootFailure,BootFailureThemeSongChange,trace_close_Unlocked,CSEC_Member,progress_csec_Unlocked,themeChangerAdded,decypher</Flags>
 <NetworkMap sort="LockGrid" >
-<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21 53 51 55 34 32 68 66 67 25 26 24 27 29 28 31 30 73 71 72 37 36 39 35 40 42 44 45 46 47 41 38 43 50 49 48 57 58 1 118 112 124 114 123 99 103 115 78 2 113 127 120 117 119 60 116 128 102 107 146 145 144 147 150 149 151 6 5 161 160 110 111 158 109</visible>
+<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21 53 51 55 34 32 68 66 67 25 26 24 27 29 28 31 30 73 71 72 37 36 39 35 40 42 44 45 46 47 41 38 43 50 49 48 57 58 1 118 112 124 114 123 99 103 115 78 2 113 127 120 117 119 60 116 128 102 107 146 145 144 147 150 149 151 6 5 161 160 110 111 158 109 148 155 154</visible>
 <network>
 <computer name="yangshuxi PC" ip="3.235.29.128" type="4" spec="player" id="playerComp"  >
 <location x="0.1" y="0.5" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="3.235.29.128" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
@@ -58,10 +58,7 @@
 #DEC_ENC::178947 164371 178947 182591 188057 200811 96957 162549 193523 178947 184413::120643 120643 120643 120643 120643 120643::181733 198131 178089 199953 179911 181733 179911
 165335 196309 168979 79701 74235 165335 179911 168979 165335 234571 168979 238215 232749 254613 258257 256435 139827 267367 274655 267367 74235 74235 238215 232749 254613 258257 256435 114319 263723 240037 240037 236393 240037 119018039 36610801 43057037 47717713 40708479 179911 194487 178089 68060343 41273299 36681859 36437711 41112963 38170433 57458125 65292725 55335495 67519209 36514235 42832931 36949693 119018039 65334631 119043547 74235 74235 45356401 65418443 45797325 55335495 37962725 51773485 38352633 45327249 55335495 37071767 42832931 48118553 39139737 36867703 15018279 15018279 252791 269189 236393 276477 136183 114319 252791 232749 269189 263723 240037 256435 136183 114319 265545 232749 241859 136183 114319 234571 263723 247325 238215 243681 240037 267367 136183 114319 278299 258257 240037 136183 114319 252791 247325 271011 265545 136183 114319 265545 258257 245503 232749 136183 114319 249147 240037 265545 265545 136183 114319 232749 265545 245503 136183 114319 240037 254613 136183 114319 250969 247325 254613 136183 114319 236393 263723 232749 247325 243681 136183 114319 265545 245503 258257 240037 136183 114319 265545 252791 240037 238215 22448395 37079055 36867703 67683189 47717713 61131277 70377927 119018039 45797325 36461397 55978661 67373449 50724013 36681859 37079055 36867703 45797325 67149343 60220277 37534555 36787535 36568895 118997997 74235 74235 45356401 65418443 254613 232749 267367 267367 119018039 45356401 65418443 37079055 46017787 45797325 43969859 38390895 67151165 36514235 71174141 55528627 48282533 119018039 45356401 65418443 37079055 36437711 55539559 47717713 36437711 36514235 41805323 50146439 42838397 47666697 63802329 50315885 52494997 55335495 66958033 55528627 48577697 22448395 65341919 41805323 50146439 58117689 55335495 36690969 36461397 36951515 38093909 68062165 54016367 36681859 119018039 70203015 70658515 36827619 53548113 36457753 48477487 56867797 43856895 41639521 55335495 69599933 65325521 44115619 36474151 36854949 39261811 38093909 50024365 70383393 37084521 45797325 22448395 45797325 44115619 36461397 45356401 38390895 46088845 50097245 74235 74235 45356401 65418443 37079055 65904917 36641775 44115619 51465567 54003613 67151165 50077203 67905473 52607961 55335495 22446573 36505125 59997993 55335495 22446573 45347291 63552715 55335495 22446573 54947409 55289945 55335495 22446573 285587 45793681 38491105 44904545 55335495 285587 45957661 43122629 38778981 22448395 50144617 47717713 37079055 67151165 48665153 55335495 36776603 67151165 36568895 37534555 36681859 119018039 37747729 254613 232749 267367 267367 39491383 45797325 67151165 48665153 55335495 36776603 45906645 60220277 67216757 42958649 45797325 36867703 55335495 48867395 45276233 37534555 38292507 52631647 63844235 55335495 64317955 71217869 51465567 45793681 119018039 67151165 55617905 47717713 48333549 41796213 48333549 48947563 55335495 22448395 74235 74235 39188931 41608547 119018039 67149343 64192237 53449725 38381785 46611759 36437711 36457753 54701439 22462971 51997591 74497469 65380181 44572941 148937 22464793 55335495 45842875 40631955 45048483 46753875 238215 263723 247325 252791 114319 267367 272833 240037 240037 267367 265545 55335495 67519209 36514235 267367 272833 247325 267367 267367 240037 263723 65892163 39219905 22448395 37079055 47717713 55617905 50144617 55335495 254613 271011 260079 165335 141649 234571 168979 79701 74235 165335 234571 168979 254613 232749 267367 267367 139827 267367 274655 267367 74235 74235 59761133 42789203 65214379 119018039 45797325 64323421 44642177 45797325 42955005 36437711 41639521 41112963 38170433 57458125 65292725 36610801 47717713 65879409 48114909 65886697 36895033 55335495 22448395 74235 74235 45356401 65418443 179911 232749 254613 258257 256435 119018039 45356401 65418443 37079055 38292507 60899883 40723055 42756407 45795503 36681859 38115773 37071767 36895033 38596781 119018039 67149343 48114909 36455931 70665803 38345345 38292507 55335495 50341393 36514235 36776603 119018039 45356401 65418443 37079055 36867703 55335495 56665555 41697825 36463219 47251281 46234605 22448395 74235 37534555 67151165 48665153 55335495 43851429 37071767 55617905 55335495 65197981 36776603 37394261 45356401 39023129 38585849 15018279 15018279 37079055 36867703 67683189 43984435 36681859 45797325 44614847 41615835 22448395 74235 74235 65418443 65418443 41639521 42832931 74235 114319 114319 114319 114319 165335 141649 234571 168979 79701 74235 165335 234571 168979 152581 150759 139827 145293 159869 147115 139827 145293 148937 148937 139827 148937 148937 165335 141649 234571 168979 79701 74235 165335 141649 179911 168979 79701 74235 165335 141649 196309 168979</file>
 </folder>
-<file name="Notes.txt">我需要这个人的记录: 
-|##QOT##|Jonas Sandburg|##QOT##|
-把记录发送至: 
-|##QOT##|gila@jmail.com|##QOT##|</file>
+<file name="Notes.txt"></file>
 <file name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
 <file name="p_SQL_399.gz">1001111010101100100011001111010011001100011111101101111011001111010001011000011001000101010011111001110010101000001001000110101001100001111110011100101000010010110011101110100111011110111110111101001010110111101010101001010100100011101011111101101111100000111011101100111111010111000101100110111010111101011111011100101101010011011100010000001101010101011010101101011011100001100010011100001111101011111110111000010101001101011101011111011000111011101100001110101111111111111011111111010101001110111111101011011111011110010011000000110110001100100110111110101100111011100010100001010011010010000101101010101110101010011100111111011001001011110010111110001111110001011001011111110111011110110100011001100101100101110110110001101001110110111010000101010100110111011011010000010110000111110101011001100100110101010101101001110110111011101011101000100001101011111110011100111111000111110111001101110110010011000100110000101101000101111001000110011101000101000101000101010110001000101110010101010111001011111001100011111101110100001001111111001110111010111001010111100111011000111101111010100110001011111111011010011101011101001101100110111011110010110000011110111110101111101010000011100001110011111001011101111001100101011111011100000101011110011010011010000101101111001110101010001100001011011101110110110111101011011011011010110111101100010101000101010001110110110101010011111101111001101001001101001100010101100101101100100101111111011011111110010000110111111110011001101101111011011101101110101110111001100000111111010100011100011100010010111001001100111101111111111011111011000100101011001011001111111011111001110100101011101000110100100100010101011101110101001100010111100111101110011101110101100111110101111010011000111111101011001101010010001111101110100110101111101110</file>
 <file name="sysinfo.bat">
@@ -177,6 +174,60 @@ Recorded Visits ::1/23/2001 9:21:21 AM - London Public Hospital
 Notes :: 患者有急性睾丸象皮病, 首先指出, 患者在8岁时已经接受过治疗, 效果良好. 虽然受影响的区域严重肿胀, 但良好的卫生行为和持续治疗使病情可以控制. 
     
 </file>
+<file name="encrypt_source.cs">private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data|##LSB##|i|##RSB##| * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + |##QOT##| |##QOT##|);
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// |##LSB##|0|##RSB##| Header Message
+        /// |##LSB##|1|##RSB##| IP Link
+        /// |##LSB##|2|##RSB##| Message Data
+        /// |##LSB##|3|##RSB##| File extension if provided, else null
+        /// |##LSB##|4|##RSB##| |##QOT##|1|##QOT##| is password is valid, |##QOT##|0|##QOT##| if not
+        ///summary
+        public static string|##LSB##||##RSB##| DecryptString(string data, string pass = |##QOT##||##QOT##|)
+        {
+            string|##LSB##||##RSB##| ret = new string|##LSB##|5|##RSB##|;
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string|##LSB##||##RSB##| split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+            string|##LSB##||##RSB##| headersSplit = split|##LSB##|0|##RSB##|.Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+
+            string headerMsg = Decrypt(headersSplit|##LSB##|1|##RSB##|, passcode);
+            string ipLink = Decrypt(headersSplit|##LSB##|2|##RSB##|, passcode);
+            string check = Decrypt(headersSplit|##LSB##|3|##RSB##|, passcode);
+            string fileExtension = null;
+            if (headersSplit.Length |##RAB##| 4) fileExtension = Decrypt(headersSplit|##LSB##|4|##RSB##|, passcode);
+            string message;
+            string passValid = |##QOT##|1|##QOT##|;
+            if (check == |##QOT##|ENCODED|##QOT##|) {
+                //Password was correct!
+                message = Decrypt(split|##LSB##|1|##RSB##|, passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = |##QOT##|0|##QOT##|;
+            }
+            ret|##LSB##|0|##RSB##| = headerMsg;
+            ret|##LSB##|1|##RSB##| = ipLink;
+            ret|##LSB##|2|##RSB##| = message;
+            ret|##LSB##|3|##RSB##| = fileExtension;
+            ret|##LSB##|4|##RSB##| = passValid;
+            return ret;
+        }</file>
 </folder>
 <folder name="log">
 <file name="@883_Connection:_from_3.235.29.128">@883 Connection: from 3.235.29.128</file>
@@ -408,6 +459,7 @@ Notes :: 患者有急性睾丸象皮病, 首先指出, 患者在8岁时已经接
 <file name="WebServerWorm.exe">10010001111011110111100101011010111010001011101110011110110001101011000111001011111011101111011110000001100010111011000011111110011110010001010110110000011100111110010001011111100101110110110101010000111110111010100100001001000101011111110111011110011101101100010111001101101010010011011110111110010110000101100110101110101001010010001000100010011010110111100000111110010110100111000011111011111000101100111110111101000101011</file>
 <file name="SQL_MemCorrupt.exe">10000101011000101000110001101011011111101111011110010011001110111110110100111011010111001111110110110110010011010011101100011110001111001011010100110110111110101110001000111000110010001010111011010101111111110100000101100111111101010100001100001110110110111111010001101101000111011111000100100000111001001110100111001111111000110001001100011010111001100111010001111111000101011010011110011100000010000011100110010110010011011101110010</file>
 <file name="Sequencer.exe">1011100101001111101110010011111001110110101111010010100110101001111000100110111101010001011001001011010111000010100111011010110111011100011111001011100100001001110111110011101110110000101101101111101100101101010011110110110011111101000011010010110010101011100011010101011111001100110000111101110100010111010000111101011001000111011110110111110111111000111100000111000000111011101111100011001100110010011010111010001111101111101110111</file>
+<file name="Decypher.exe">11001111011100010011101101101110110011000110101001111111111111101101010011100000100000101110101011000111101101110100010101000101111101110111011010100110101111000010011001110101110110011101100011101001111100010111101001000100110011010100111011111110001101110111011011101101101101000010100011100011010111001101011111111101101101010000111000011110100001001101111110011100111011110001010011111100001000111111001110001011011100000111011111110100101</file>
 </folder>
 <folder name="sys">
 <file name="os-config.sys">100101111010110110101111101101000101111100010101000110010111001111010001011111001010111001100101011111010110111111100011111101001101111110010010000000100011110011011111110111000110110001011011011110001100000101100101101110011010011101010100011111101111110110110111101110100110100010100101011011110110111101001101100101110110100100000110011111111110011001100110110101100111011001011000111111111101011011111101110010111101100111100110</file>
@@ -465,6 +517,7 @@ Notes :: 患者有急性睾丸象皮病, 首先指出, 患者在8岁时已经接
 <file name="x-serverBACKUP(10).sys">7297991071101011167710511011655</file>
 <file name="x-serverBACKUP(11).sys">7297991071101011166610811710149</file>
 <file name="x-serverBACKUP(12).sys">7297991071101011168710410511610153</file>
+<file name="Notes_Reopener.bat">true</file>
 </folder>
 </folder>
 </filesystem>
@@ -520,7 +573,7 @@ texture_folder: |##QOT##|C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/
 <firewall complexity="0" solution="SXZUY4" additionalDelay="0" />
 <portsOpen> 80 25 21 22</portsOpen>
 <users>
-<user name="admin" pass="shadow" type="0" known="False" />
+<user name="admin" pass="xxxxxx" type="0" known="False" />
 <user name="dlocke" pass="sandalphon" type="2" known="False" />
 <user name="gila" pass="420PraiseIt" type="2" known="False" />
 <user name="vapor" pass="d771njk38A" type="2" known="False" />
@@ -549,6 +602,12 @@ texture_folder: |##QOT##|C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@3767_3.235.29.128_Disconnected">@3767 3.235.29.128 Disconnected</file>
+<file name="@3542_3.235.29.128_Disconnected">@3542 3.235.29.128 Disconnected</file>
+<file name="@3491_3.235.29.128_Disconnected">@3491 3.235.29.128 Disconnected</file>
+<file name="@2699_3.235.29.128_Disconnected">@2699 3.235.29.128 Disconnected</file>
+<file name="@2607_3.235.29.128_Disconnected">@2607 3.235.29.128 Disconnected</file>
+<file name="@1101_3.235.29.128_Disconnected">@1101 3.235.29.128 Disconnected</file>
 <file name="@26978_43.49.26.32_Disconnected">@26978 43.49.26.32 Disconnected</file>
 <file name="@26712_14.233.35.180_Disconnected">@26712 14.233.35.180 Disconnected</file>
 <file name="@26530_LOCAL_ADMIN_Closed_Port#22">@26530 LOCAL_ADMIN Closed Port#22</file>
@@ -1690,7 +1749,34 @@ Password: monkey</file>
 </folder>
 <folder name="yangshuxi">
 <folder name="inbox">
-<file name="合同完成">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+<file name="合同完成">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+CSEC ReplyBot@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+合同完成@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+
+恭喜, 
+你接受的任务已经完成, 客户对你的工作非常满意. 
+你现在可以去数据库里随意接受其他的任务了. 
+你现在在100个人中排名第40. 
+谢谢
+CSEC</file>
+<file name="潜入宝库">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+CSEC Hub Services@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+潜入宝库@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+
+DEC方案小组最近完成了他们新的|##QOT##|DEC加密程序组|##QOT##| -- 基本上来说就是个文件加密组件. 我们想要查看的文件被这个组件给加密了. 
+我向我们的负载均衡服务器(一个面向所有CSEC用户的非安全的文件放置点)上, 放置了一份该加密组件的备份, 名为|##QOT##|encrypt_source.dec|##QOT##|. |##QOT##|.dec|##QOT##|是该文件的扩展名. 
+你先自己看看这个加密文件吧. 该公司的网站上基本没什么有用的东西, 不过如果你仔细发掘的话可能会找到点有用的东西. 一旦你进入了他们的网站, 请立即尝试扫描, 看看有没有藏得更深的网络. 
+一旦你解码成功了, 就把该文件上传到CSEC共享服务器吧. 
+    @*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+link#%#CSEC负载均衡服务器#%#198.72.198.247@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+link#%#CSEC 公共共享服务器#%#28.17.82.96@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+link#%#DEC方案小组网络服务器#%#147.66.61.190@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+note#%#任务细节#%#调查DEC方案小组的企业网络
+找到解密DEC文件的办法
+解码放置在CSEC负载均衡服务器上的文件
+把解码后的文件上传到CSEC共享服务器@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+</file>
+<file name="合同完成">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 CSEC ReplyBot@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 合同完成@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 
@@ -2448,6 +2534,10 @@ yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 警告线 : Complete@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 警告线 completed.</file>
+<file name="潜入宝库_:_Complete">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+潜入宝库 : Complete@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+潜入宝库 completed.</file>
 </folder>
 <file name="AccountInfo">Username: yangshuxi
 Password: password</file>
@@ -4394,6 +4484,11 @@ LastName_FirstName|##LSB##|RecordNumber|##RSB##|
 </folder>
 </folder>
 <folder name="log">
+<file name="@3770_3.235.29.128_Disconnected">@3770 3.235.29.128 Disconnected</file>
+<file name="@3767_Connection:_from_3.235.29.128">@3767 Connection: from 3.235.29.128</file>
+<file name="@3621_FileCreated:_by_3.235.29.128_-_file:encrypt_source.cs">@3621 FileCreated: by 3.235.29.128 - file:encrypt_source.cs</file>
+<file name="@3606_3.235.29.128_Became_Admin">@3606 3.235.29.128 Became Admin</file>
+<file name="@3601_Connection:_from_3.235.29.128">@3601 Connection: from 3.235.29.128</file>
 <file name="@27264_232.53.138.148_Disconnected">@27264 232.53.138.148 Disconnected</file>
 <file name="@27254_232.53.138.148_Became_Admin">@27254 232.53.138.148 Became Admin</file>
 <file name="@27249_Connection:_from_232.53.138.148">@27249 Connection: from 232.53.138.148</file>
@@ -4501,6 +4596,60 @@ ThemeChanger允许用户选择这两行中的任何文件, 并且会自动下载
 <file name="Teal_x-server.sys">729799107110101116841019710850</file>
 <file name="Blue_x-server.sys">7297991071101011166610811710149</file>
 </folder>
+<file name="encrypt_source.cs">private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data|##LSB##|i|##RSB##| * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + |##QOT##| |##QOT##|);
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// |##LSB##|0|##RSB##| Header Message
+        /// |##LSB##|1|##RSB##| IP Link
+        /// |##LSB##|2|##RSB##| Message Data
+        /// |##LSB##|3|##RSB##| File extension if provided, else null
+        /// |##LSB##|4|##RSB##| |##QOT##|1|##QOT##| is password is valid, |##QOT##|0|##QOT##| if not
+        ///summary
+        public static string|##LSB##||##RSB##| DecryptString(string data, string pass = |##QOT##||##QOT##|)
+        {
+            string|##LSB##||##RSB##| ret = new string|##LSB##|5|##RSB##|;
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string|##LSB##||##RSB##| split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+            string|##LSB##||##RSB##| headersSplit = split|##LSB##|0|##RSB##|.Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+
+            string headerMsg = Decrypt(headersSplit|##LSB##|1|##RSB##|, passcode);
+            string ipLink = Decrypt(headersSplit|##LSB##|2|##RSB##|, passcode);
+            string check = Decrypt(headersSplit|##LSB##|3|##RSB##|, passcode);
+            string fileExtension = null;
+            if (headersSplit.Length |##RAB##| 4) fileExtension = Decrypt(headersSplit|##LSB##|4|##RSB##|, passcode);
+            string message;
+            string passValid = |##QOT##|1|##QOT##|;
+            if (check == |##QOT##|ENCODED|##QOT##|) {
+                //Password was correct!
+                message = Decrypt(split|##LSB##|1|##RSB##|, passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = |##QOT##|0|##QOT##|;
+            }
+            ret|##LSB##|0|##RSB##| = headerMsg;
+            ret|##LSB##|1|##RSB##| = ipLink;
+            ret|##LSB##|2|##RSB##| = message;
+            ret|##LSB##|3|##RSB##| = fileExtension;
+            ret|##LSB##|4|##RSB##| = passValid;
+            return ret;
+        }</file>
 </folder>
 </filesystem>
 </computer>
@@ -4549,6 +4698,7 @@ Archived Via : http://Bash.org</file>
 </folder>
 </folder>
 <folder name="log">
+<file name="@2610_Connection:_from_3.235.29.128">@2610 Connection: from 3.235.29.128</file>
 <file name="@26488_Connection:_from_221.184.54.246">@26488 Connection: from 221.184.54.246</file>
 <file name="@24630_Connection:_from_221.184.54.246">@24630 Connection: from 221.184.54.246</file>
 <file name="@24488_Connection:_from_221.184.54.246">@24488 Connection: from 221.184.54.246</file>
@@ -4625,29 +4775,6 @@ E2_TargetTaskTrack_1 =   #%#
 E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 328  #%#
-</file>
-<file name="Contract#477">CSEC Contract #477
---------------------------------------------  #%#
-Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 77 105 115 115 105 111 110 115 47 77 97 105 110 72 117 98 47 70 105 114 115 116 83 101 116 47 48 50 72 117 98 83 101 116 48 53 46 120 109 108
-  #%#
-Client = UNKNOWN  #%#
-Target = UNKNOWN  #%#
-RequiredRank = 0  #%#
-Difficulty = 0
-  #%#
-Title = 发现或开发解码软件  #%#
-Posting = 
-一个新公司研发出了一项新的文件加密软件, 并且把大量原本向我们开放的代码给加密了. 
-这个加密算法并不是我们所见过最复杂的, 不过目前还没有解决的办法. 无论你用什么办法完成这项任务, 只要把文件解码了就行. 
-  
-  #%#
-E_TargetTrack =   #%#
-E_TargetTaskData =   #%#
-E_TargetTaskTrack =   #%#
-E2_TargetTaskTrack_1 =   #%#
-E3_TargetTaskTrack_2 =   #%#
-E3_TargetTaskTrack_3 = cmd  #%#
-E4_ContractReg = 477  #%#
 </file>
 <file name="Contract#733">CSEC Contract #733
 --------------------------------------------  #%#
@@ -4901,6 +5028,34 @@ E2_TargetTaskTrack_1 =   #%#
 E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 754  #%#
+</file>
+<file name="Contract#477Archive">Contract Archive:
+Accepted : 1/6/2018 5:48:09 PM
+User : yangshuxi
+Active Since : 1/6/2018 5:47:40 PM
+
+CSEC Contract #477
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 77 105 115 115 105 111 110 115 47 77 97 105 110 72 117 98 47 70 105 114 115 116 83 101 116 47 48 50 72 117 98 83 101 116 48 53 46 120 109 108
+  #%#
+Client = UNKNOWN  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 发现或开发解码软件  #%#
+Posting = 
+一个新公司研发出了一项新的文件加密软件, 并且把大量原本向我们开放的代码给加密了. 
+这个加密算法并不是我们所见过最复杂的, 不过目前还没有解决的办法. 无论你用什么办法完成这项任务, 只要把文件解码了就行. 
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 477  #%#
 </file>
 </folder>
 </folder>
@@ -22761,6 +22916,8 @@ Archived Via : http://Bash.org</file>
 1-800-827-6364</file>
 </folder>
 <folder name="log">
+<file name="@3601_3.235.29.128_Disconnected">@3601 3.235.29.128 Disconnected</file>
+<file name="@3593_Connection:_from_3.235.29.128">@3593 Connection: from 3.235.29.128</file>
 <file name="@870_LOCAL_ADMIN_Closed_Port#1433">@870 LOCAL_ADMIN Closed Port#1433</file>
 <file name="@870_LOCAL_ADMIN_Closed_Port#22">@870 LOCAL_ADMIN Closed Port#22</file>
 <file name="@870_LOCAL_ADMIN_Closed_Port#80">@870 LOCAL_ADMIN Closed Port#80</file>
@@ -33891,6 +34048,8 @@ Archived Via : http://Bash.org</file>
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@3782_FileCreated:_by_3.235.29.128_-_file:encrypt_source.cs">@3782 FileCreated: by 3.235.29.128 - file:encrypt_source.cs</file>
+<file name="@3770_Connection:_from_3.235.29.128">@3770 Connection: from 3.235.29.128</file>
 <file name="@16211_FileCreated:_by_221.184.54.246_-_file:Seasoning_Order_Placement_Template_Pt2.docx">@16211 FileCreated: by 221.184.54.246 - file:Seasoning_Order_Placement_Template_Pt2.docx</file>
 <file name="@16208_FileCreated:_by_221.184.54.246_-_file:Seasoning_Order_Placement_Template_Pt1.docx">@16208 FileCreated: by 221.184.54.246 - file:Seasoning_Order_Placement_Template_Pt1.docx</file>
 <file name="@15300_Connection:_from_221.184.54.246">@15300 Connection: from 221.184.54.246</file>
@@ -33906,6 +34065,60 @@ Archived Via : http://Bash.org</file>
 </folder>
 <folder name="Drop">
 <folder name="Uploads">
+<file name="encrypt_source.cs">private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data|##LSB##|i|##RSB##| * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + |##QOT##| |##QOT##|);
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// |##LSB##|0|##RSB##| Header Message
+        /// |##LSB##|1|##RSB##| IP Link
+        /// |##LSB##|2|##RSB##| Message Data
+        /// |##LSB##|3|##RSB##| File extension if provided, else null
+        /// |##LSB##|4|##RSB##| |##QOT##|1|##QOT##| is password is valid, |##QOT##|0|##QOT##| if not
+        ///summary
+        public static string|##LSB##||##RSB##| DecryptString(string data, string pass = |##QOT##||##QOT##|)
+        {
+            string|##LSB##||##RSB##| ret = new string|##LSB##|5|##RSB##|;
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string|##LSB##||##RSB##| split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+            string|##LSB##||##RSB##| headersSplit = split|##LSB##|0|##RSB##|.Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+
+            string headerMsg = Decrypt(headersSplit|##LSB##|1|##RSB##|, passcode);
+            string ipLink = Decrypt(headersSplit|##LSB##|2|##RSB##|, passcode);
+            string check = Decrypt(headersSplit|##LSB##|3|##RSB##|, passcode);
+            string fileExtension = null;
+            if (headersSplit.Length |##RAB##| 4) fileExtension = Decrypt(headersSplit|##LSB##|4|##RSB##|, passcode);
+            string message;
+            string passValid = |##QOT##|1|##QOT##|;
+            if (check == |##QOT##|ENCODED|##QOT##|) {
+                //Password was correct!
+                message = Decrypt(split|##LSB##|1|##RSB##|, passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = |##QOT##|0|##QOT##|;
+            }
+            ret|##LSB##|0|##RSB##| = headerMsg;
+            ret|##LSB##|1|##RSB##| = ipLink;
+            ret|##LSB##|2|##RSB##| = message;
+            ret|##LSB##|3|##RSB##| = fileExtension;
+            ret|##LSB##|4|##RSB##| = passValid;
+            return ret;
+        }</file>
 <file name="Seasoning_Order_Placement_Template_Pt2.docx">
     啃得鸡干货订单模板
 
@@ -33966,10 +34179,10 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 </filesystem>
 </computer>
 <computer name="CSEC负载均衡服务器" ip="198.72.198.247" type="1" spec="none" id="hubCrossroads"  >
-<location x="0.2066126" y="0.9505908" /><security level="0" traceTime="-1" portsToCrack="-1" adminIP="18.215.5.108" /><admin type="none" resetPass="false" isSuper="false" /><links></links>
+<location x="0.2066126" y="0.9505908" /><security level="0" traceTime="-1" portsToCrack="-1" adminIP="3.235.29.128" /><admin type="none" resetPass="false" isSuper="false" /><links></links>
 <portsOpen> 80 25 21 22</portsOpen>
 <users>
-<user name="admin" pass="midnight" type="1" known="False" />
+<user name="admin" pass="midnight" type="1" known="True" />
 </users>
 <daemons>
 </daemons>
@@ -33997,8 +34210,71 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 98708 138792 138792 138792 138792 50892424 40845916 43101552 37998130 171588 186164 138792 38182152 43198118 55359968 41616622 36824762 98708 138792 138792 138792 138792 162478 38515578 48203152 162478 98708 98708 215316 198918 202562 217138 138792 204384 198918 239002 231714 224426 222604 186164 138792 142436 36837516 48307006 50748486 36801076 59789250 62729958 67142842 67175638 36538708 70012492 71255096 138792 162478 162478 138792 36485870 47742186 38182152 43198118 47011564 36480404 45821798 36892176 164300 164300 164300 138792 47742186 45821798 36892176 47011564 36480404 55359968 42764482 140614 138792 142436 98708 229892 224426 231714 206206 138792 204384 206206 239002 213494 233536 233536 138792 200740 235358 217138 198918 233536 206206 229892 186164 138792 142436 39625176 195274 138792 47742186 36485870 47742186 67543682 36744594 56899558 42711644 36888532 40383128 41616622 51029074 37103528 55359968 47638332 37440598 46042260 37103528 55359968 60281190 42671560 59246294 46778348 40804010 36706332 195274 138792 45821798 41616622 51029074 37103528 47742186 40601768 36567860 45821798 157012 53343014 157012 37103528 140614 138792 142436 98708 215316 198918 202562 217138 138792 204384 198918 239002 231714 224426 222604 186164 138792 142436 45821798 56003134 67397922 160656 138792 37056156 47742186 45821798 36892176 45311638 74117458 52739932 36706332 164300 138792 37103528 45300706 160656 138792 38182152 43198118 36635274 48139382 42857404 44240302 160656 138792 42764482 36892176 45300706 64216710 41616622 36824762 164300 138792 45821798 50212818 36598834 38468206 42764482 36892176 66253706 45821798 65359104 67142842 36706332 164300 164300 164300 138792 42764482 36892176 36635274 36485870 45300706 67175638 48689626 55359968 164300 164300 164300 138792 142436 98708 98708 162478 215316 198918 202562 217138 36837516 63930656 63875996 68084816 46517802 38316980 36706332 36852092 52632434 67929946 55359968 41432600 69746480 45885568 40732952 41687680 36480404 164300 98708 138792 98708 215316 198918 202562 217138 138792 204384 198918 239002 231714 224426 222604 186164 138792 142436 40732952 67175638 57584630 55702504 45821798 164300 138792 142436 98708 98708 40765748 47858794 38340666 46435812 38415368 38619432 38402614 56779306 38402614 36742772 51138394 43327480 98708 98708 50549888 36544174 38316980 54040840 36706332 36462184 44229370 38182152 43198118 160656 138792 50169090 40732952 36879422 45226004 36801076 55359968 67303178 44227548 47011564 39291750 41035404 43928740 164300 138792 98708 57207476 36544174 40598124 39634286 55702504 54913578 47370498 65100380 46091454 160656 138792 50733910 51812534 36480404 55359968 36801076 36892176 40732952 45226004 45003720 40747528 40592658 41600224 67252162 47370498 164300 138792 98708 57531792 36462184 44229370 38182152 43198118 66625394 39286284 51121996 54040840 38316980 36706332 48101120 41640308 55359968 38182152 43198118 160656 138792 38050968 67669400 67707662 38185796 39291750 36706332 50733910 51812534 164300 138792 98708 98708 229892 224426 231714 206206 138792 204384 206206 239002 213494 233536 233536 138792 200740 235358 217138 198918 233536 206206 229892 186164 138792 142436 47337702 39488526 140614 138792 142436 98708 215316 198918 202562 217138 138792 204384 198918 239002 231714 224426 222604 186164 138792 142436 229892 282730 290018 264510 140614 138792 45821798 48307006 47337702 37103528 36706332 140614 138792 45821798 50557176 67181104 36485870 36975988 56859474 44391528 37103528 55359968 140614 138792 142436 98708 98708 71222300 41687680 55359968 38182152 43198118 43899588 59228074 55343570 36480404 36706332 50733910 51812534 160656 138792 51768806 39291750 36706332 45821798 36892176 55359968 36527776 36538708 36569682 64364292 164300 138792 42764482 46517802 38316980 36706332 52515826 46042260 39515856 50682894 50792214 164300 138792 98708 98708 229892 224426 231714 206206 138792 204384 206206 239002 213494 233536 233536 138792 200740 235358 217138 198918 233536 206206 229892 186164 138792 142436 215316 198918 198918 198918 198918 198918 202562 202562 202562 217138 217138 217138 217138 217138 217138 217138 140614 142436 98708 98708 138792 138792</file>
 <file name="C_EXE_contact.dec">#DEC_ENC::164371 239073 219031 246361 259115 242717 250005 222675 220853 96957 178947 222675 248183 248183 215387 226319 229963 239073 226319 96957 189879 259115 248183 250005 222675 237251 248183 96957 229963 239073 219031::138863 133397 122465 127931 129753 135219 122465 129753 131575 138863 122465 127931 127931 142507::200352 216750 196708 218572 198530 200352 198530::122465 250005 257293 250005
 92854 92854 132938 132938 132938 132938 36913652 38615400 51165336 39156534 38409514 55354114 209462 214928 251368 265944 271410 65910782 45885180 39278608 39216660 136582 256834 271410 276876 255012 269588 258656 136582 158446 132938 92854 132938 132938 132938 132938 45815944 55997280 67392068 45815944 36886322 43893734 59222220 36562006 36592980 41723732 47459388 44633466 36582048 36700478 154802 132938 37050302 47736332 38400404 55696650 44919520 154802 132938 45815944 36886322 54034986 40727098 41594370 36715054 59247728 42973624 55354114 71216446 37986810 40741674 37063056 132938 156624 156624 132938 71194582 71347630 50569542 57072260 154802 132938 36480016 60238896 51108854 158446 132938 92854 132938 132938 132938 132938 57578776 45815944 48133528 65202024 38354854 36700478 36873568 39280430 154802 132938 36970134 59240440 37097674 48095266 41634454 51163514 45054348 158446 132938 92854 132938 132938</file>
+<file name="encrypt_source.cs">private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data|##LSB##|i|##RSB##| * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + |##QOT##| |##QOT##|);
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// |##LSB##|0|##RSB##| Header Message
+        /// |##LSB##|1|##RSB##| IP Link
+        /// |##LSB##|2|##RSB##| Message Data
+        /// |##LSB##|3|##RSB##| File extension if provided, else null
+        /// |##LSB##|4|##RSB##| |##QOT##|1|##QOT##| is password is valid, |##QOT##|0|##QOT##| if not
+        ///summary
+        public static string|##LSB##||##RSB##| DecryptString(string data, string pass = |##QOT##||##QOT##|)
+        {
+            string|##LSB##||##RSB##| ret = new string|##LSB##|5|##RSB##|;
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string|##LSB##||##RSB##| split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+            string|##LSB##||##RSB##| headersSplit = split|##LSB##|0|##RSB##|.Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(|##QOT##|Tried to decrypt an invalid valid DEC ENC file|##QOT##|);
+
+            string headerMsg = Decrypt(headersSplit|##LSB##|1|##RSB##|, passcode);
+            string ipLink = Decrypt(headersSplit|##LSB##|2|##RSB##|, passcode);
+            string check = Decrypt(headersSplit|##LSB##|3|##RSB##|, passcode);
+            string fileExtension = null;
+            if (headersSplit.Length |##RAB##| 4) fileExtension = Decrypt(headersSplit|##LSB##|4|##RSB##|, passcode);
+            string message;
+            string passValid = |##QOT##|1|##QOT##|;
+            if (check == |##QOT##|ENCODED|##QOT##|) {
+                //Password was correct!
+                message = Decrypt(split|##LSB##|1|##RSB##|, passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = |##QOT##|0|##QOT##|;
+            }
+            ret|##LSB##|0|##RSB##| = headerMsg;
+            ret|##LSB##|1|##RSB##| = ipLink;
+            ret|##LSB##|2|##RSB##| = message;
+            ret|##LSB##|3|##RSB##| = fileExtension;
+            ret|##LSB##|4|##RSB##| = passValid;
+            return ret;
+        }</file>
 </folder>
 <folder name="log">
+<file name="@3593_3.235.29.128_Disconnected">@3593 3.235.29.128 Disconnected</file>
+<file name="@3587_FileCopied:_by_3.235.29.128_-_file:encrypt_source.cs">@3587 FileCopied: by 3.235.29.128 - file:encrypt_source.cs</file>
+<file name="@3546_3.235.29.128_Became_Admin">@3546 3.235.29.128 Became Admin</file>
+<file name="@3542_Connection:_from_3.235.29.128">@3542 Connection: from 3.235.29.128</file>
+<file name="@3522_Connection:_from_3.235.29.128">@3522 Connection: from 3.235.29.128</file>
+<file name="@3522_3.235.29.128_Disconnected">@3522 3.235.29.128 Disconnected</file>
+<file name="@3522_3.235.29.128_Became_Admin">@3522 3.235.29.128 Became Admin</file>
+<file name="@3508_Connection:_from_3.235.29.128">@3508 Connection: from 3.235.29.128</file>
+<file name="@3454_Connection:_from_3.235.29.128">@3454 Connection: from 3.235.29.128</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -34514,10 +34790,10 @@ Archived Via : http://Bash.org</file>
 </filesystem>
 </computer>
 <computer name="DEC方案小组主页" ip="101.0.89.154" type="1" spec="none" id="decSoftMainframe"  >
-<location x="0.2936021" y="0.03639805" /><security level="5" traceTime="-1" proxyTime="-1" portsToCrack="4" adminIP="59.24.3.100" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
+<location x="0.2936021" y="0.03639805" /><security level="5" traceTime="-1" proxyTime="-1" portsToCrack="4" adminIP="101.0.89.154" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
 <portsOpen> 21 25 22 80 1433</portsOpen>
 <users>
-<user name="admin" pass="cool" type="1" known="False" />
+<user name="admin" pass="cool" type="1" known="True" />
 </users>
 <daemons>
 </daemons>
@@ -34551,6 +34827,28 @@ Archived Via : http://Bash.org</file>
 102423 162549 164371 160727 211743 164371 180769 160727 144329 144329 127931 140685 142507 140685 138863 142507 96957 129753 129753 129753 137041 138863 135219 96957 129753 127931 142507 126109 131575 127931 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 129753 137041 138863 135219 96957 129753 129753 126109 140685 135219 131575 96957 142507 137041 142507 135219 138863 96957 127931 140685 142507 140685 138863 142507 96957 129753 133397 126109 140685 142507 135219 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 127931 142507 126109 131575 127931 96957 129753 129753 129753 137041 138863 135219 96957 142507 137041 142507 135219 138863 96957 127931 137041 126109 138863 129753 138863 96957 129753 133397 126109 140685 142507 135219 96957 129753 129753 126109 140685 135219 131575 96957 129753 129753 129753 137041 138863 135219 144329 144329 127931 129753 138863 142507 131575 127931 96957 127931 129753 137041 127931 126109 142507 96957 127931 129753 138863 142507 131575 127931 96957 127931 129753 129753 133397 137041 135219 96957 127931 129753 137041 127931 126109 142507 96957 127931 129753 129753 133397 137041 135219 96957 127931 133397 126109 137041 140685 135219 96957 127931 133397 129753 135219 126109 138863 96957 127931 129753 129753 133397 137041 135219 96957 127931 129753 138863 142507 131575 127931 96957 127931 131575 135219 129753 127931 142507 96957 127931 131575 131575 131575 142507 138863 144329 144329 127931 137041 133397 131575 138863 127931 96957 127931 140685 126109 138863 137041 142507 96957 127931 137041 126109 138863 129753 138863 96957 127931 140685 129753 135219 142507 127931 96957 127931 137041 129753 135219 133397 142507 96957 127931 137041 133397 131575 138863 127931 96957 127931 137041 129753 135219 133397 142507 144329 144329 127931 129753 129753 133397 137041 135219 96957 129753 127931 142507 126109 131575 127931 96957 129753 133397 140685 127931 140685 131575 62339 56873 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 133397 129753 138863 127931 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 135219 131575 137041 133397 142507 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 126109 126109 126109 135219 96957 129753 129753 129753 137041 138863 135219 96957 142507 137041 142507 135219 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 135219 126109 126109 126109 135219 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 126109 126109 126109 135219 96957 129753 129753 142507 142507 137041 131575 96957 129753 127931 142507 126109 131575 127931 96957 142507 137041 142507 135219 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 135219 126109 126109 126109 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 142507 137041 142507 135219 138863 96957 127931 137041 133397 131575 138863 127931 96957 129753 131575 142507 126109 138863 131575 96957 129753 127931 142507 126109 131575 127931 96957 129753 133397 137041 131575 137041 127931 96957 129753 135219 142507 127931 127931 135219 96957 129753 133397 129753 138863 127931 138863 96957 129753 135219 126109 126109 126109 135219 96957 127931 127931 127931 135219 131575 131575 96957 129753 133397 140685 127931 140685 131575 96957 129753 135219 126109 126109 126109 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 142507 137041 142507 135219 138863 96957 129753 129753 126109 140685 135219 131575 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 126109 126109 126109 135219 96957 129753 127931 135219 131575 140685 138863 96957 127931 127931 140685 140685 129753 127931 96957 142507 137041 142507 135219 138863 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 129753 140685 127931 133397 127931 96957 129753 133397 126109 140685 142507 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 135219 126109 126109 126109 135219 96957 142507 137041 142507 135219 138863 96957 129753 133397 129753 138863 127931 138863 96957 129753 127931 135219 131575 140685 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 133397 140685 127931 140685 131575 96957 129753 127931 142507 126109 131575 127931 96957 129753 133397 126109 140685 142507 135219 96957 129753 129753 126109 140685 135219 131575 96957 129753 129753 129753 137041 138863 135219 96957 127931 127931 131575 131575 135219 135219 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 137041 129753 138863 135219 142507 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 127931 140685 142507 140685 138863 142507 96957 129753 135219 126109 126109 126109 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 127931 135219 140685 142507 126109 135219 96957 129753 135219 127931 140685 129753 138863 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 135219 133397 129753 142507 96957 129753 129753 126109 140685 135219 131575 96957 129753 129753 129753 137041 138863 135219 96957 129753 133397 137041 131575 137041 127931 96957 142507 137041 142507 135219 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 126109 126109 126109 135219 96957 142507 137041 142507 135219 138863 96957 127931 133397 142507 138863 142507 135219 96957 142507 137041 142507 135219 138863 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 135219 133397 138863 127931 96957 142507 137041 142507 135219 138863 96957 127931 140685 142507 140685 138863 142507 96957 129753 135219 126109 126109 126109 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 127931 135219 140685 142507 126109 135219 96957 129753 135219 127931 140685 129753 138863 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 135219 133397 129753 142507 96957 129753 129753 126109 140685 135219 131575 96957 129753 129753 129753 137041 138863 135219 96957 129753 133397 137041 131575 137041 127931 96957 127931 127931 127931 135219 131575 131575 96957 127931 127931 131575 131575 135219 135219 96957 127931 133397 137041 127931 135219 127931 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 129753 133397 133397 142507 138863 96957 129753 133397 126109 140685 142507 135219 96957 129753 133397 137041 131575 137041 127931 96957 142507 137041 142507 135219 138863 96957 127931 127931 127931 135219 131575 131575 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 135219 126109 126109 126109 135219 96957 142507 137041 142507 135219 138863 96957 129753 129753 142507 142507 137041 131575 96957 142507 137041 142507 135219 138863 96957 127931 133397 142507 138863 142507 135219 96957 142507 137041 142507 135219 138863 96957 127931 129753 137041 127931 126109 142507 96957 127931 133397 137041 127931 135219 127931 96957 142507 137041 142507 135219 138863 96957 129753 129753 142507 142507 137041 131575 96957 142507 137041 142507 135219 138863 96957 127931 138863 138863 127931 129753 135219 96957 127931 137041 133397 131575 138863 127931 96957 127931 140685 142507 140685 138863 142507 96957 127931 140685 142507 140685 138863 142507 96957 129753 127931 127931 138863 133397 131575 96957 127931 142507 127931 138863 126109 127931 96957 127931 137041 142507 140685 131575 138863 96957 127931 135219 138863 126109 140685 131575 96957 127931 140685 126109 138863 137041 142507 96957 142507 137041 142507 135219 138863 96957 129753 129753 126109 140685 135219 131575 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 126109 126109 126109 135219 96957 129753 127931 135219 131575 140685 138863 96957 127931 129753 129753 133397 137041 135219 96957 127931 138863 138863 127931 129753 135219 96957 129753 129753 129753 137041 138863 135219 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 129753 135219 126109 126109 126109 135219 96957 129753 129753 140685 127931 133397 127931 96957 127931 133397 137041 127931 135219 127931 96957 142507 137041 142507 135219 138863 96957 129753 129753 142507 142507 137041 131575 96957 127931 127931 137041 142507 142507 142507 96957 127931 127931 137041 142507 142507 142507 96957 127931 127931 131575 131575 135219 135219 96957 142507 137041 142507 135219 138863 96957 129753 137041 129753 138863 135219 142507 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 135219 126109 126109 126109 135219 96957 142507 137041 142507 135219 138863 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 135219 133397 138863 127931 96957 127931 142507 135219 131575 133397 135219 96957 129753 127931 135219 131575 140685 138863 96957 129753 131575 135219 133397 129753 142507 96957 142507 137041 142507 135219 138863 96957 127931 133397 142507 138863 142507 135219 96957 142507 137041 142507 135219 138863 96957 127931 127931 127931 135219 131575 131575 96957 127931 127931 127931 135219 131575 131575 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 129753 140685 127931 133397 127931 96957 129753 133397 126109 140685 142507 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 135219 126109 126109 126109 135219 96957 127931 127931 131575 131575 135219 135219 96957 129753 129753 126109 140685 135219 131575 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 126109 126109 126109 135219 96957 129753 127931 135219 131575 140685 138863 96957 129753 126109 133397 133397 135219 135219 96957 129753 129753 142507 142507 137041 131575 96957 129753 126109 140685 126109 142507 142507 96957 142507 137041 142507 135219 138863 96957 127931 127931 135219 127931 138863 138863 96957 142507 137041 142507 135219 138863 96957 127931 129753 138863 142507 131575 127931 96957 127931 133397 126109 137041 140685 135219 96957 127931 129753 142507 138863 135219 131575 96957 127931 129753 142507 138863 135219 131575 96957 127931 127931 131575 131575 135219 135219 96957 142507 137041 142507 135219 138863 96957 127931 127931 137041 142507 142507 142507 96957 142507 137041 142507 135219 138863 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 129753 140685 127931 133397 127931 96957 129753 133397 126109 140685 142507 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 135219 126109 126109 126109 135219 96957 127931 129753 129753 133397 137041 135219 96957 127931 138863 140685 142507 133397 138863 96957 129753 127931 135219 131575 140685 138863 96957 129753 135219 138863 129753 142507 131575 96957 127931 142507 135219 131575 133397 135219 96957 129753 127931 135219 131575 140685 138863 96957 129753 131575 135219 133397 129753 142507 96957 129753 135219 127931 140685 129753 138863 96957 129753 129753 129753 137041 138863 135219 96957 142507 137041 142507 135219 138863 96957 127931 129753 133397 129753 140685 138863 96957 142507 137041 142507 135219 138863 96957 127931 129753 142507 138863 135219 131575 96957 142507 137041 142507 135219 138863 96957 127931 127931 137041 142507 142507 142507 96957 142507 137041 142507 135219 138863 96957 129753 133397 129753 138863 127931 138863 96957 129753 127931 135219 131575 140685 138863 96957 129753 133397 140685 127931 140685 131575 96957 129753 133397 140685 127931 140685 131575 96957 129753 127931 142507 126109 131575 127931 96957 129753 133397 126109 140685 142507 135219 96957 129753 129753 126109 140685 135219 131575 96957 129753 129753 129753 137041 138863 135219 96957 127931 133397 137041 127931 135219 127931 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 126109 126109 126109 135219 96957 127931 129753 129753 133397 137041 135219 96957 127931 135219 138863 126109 140685 131575 96957 129753 133397 129753 138863 127931 138863 96957 129753 133397 129753 138863 127931 138863 96957 129753 129753 129753 137041 138863 135219 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 126109 140685 135219 131575 96957 127931 127931 127931 135219 131575 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 135219 133397 138863 127931 96957 127931 142507 135219 131575 133397 135219 96957 129753 127931 135219 131575 140685 138863 96957 129753 131575 135219 133397 129753 142507 96957 142507 137041 142507 135219 138863 96957 127931 127931 137041 142507 142507 142507 96957 142507 137041 142507 135219 138863 96957 127931 126109 126109 137041 126109 127931 96957 142507 137041 142507 135219 138863 96957 127931 126109 126109 137041 126109 127931 96957 127931 127931 131575 131575 135219 135219 96957 127931 133397 137041 127931 135219 127931 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 137041 137041 133397 126109 131575 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 126109 126109 126109 135219 96957 129753 135219 127931 140685 129753 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 131575 142507 126109 138863 131575 96957 142507 137041 142507 135219 138863 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 129753 137041 138863 135219 96957 129753 135219 126109 126109 126109 135219 96957 127931 129753 129753 133397 137041 135219 96957 127931 142507 127931 138863 126109 127931 96957 129753 133397 126109 140685 142507 135219 96957 127931 140685 142507 140685 138863 142507 96957 129753 135219 126109 126109 126109 135219 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 142507 126109 138863 131575 96957 129753 129753 137041 131575 127931 142507 96957 127931 127931 127931 135219 131575 131575 96957 127931 127931 131575 131575 135219 135219 96957 127931 129753 129753 133397 137041 135219 96957 127931 142507 127931 138863 126109 127931 96957 129753 133397 137041 131575 137041 127931 96957 129753 129753 142507 142507 137041 131575 96957 129753 131575 138863 129753 135219 127931 96957 127931 127931 127931 135219 131575 131575 96957 127931 127931 131575 131575 135219 135219 96957 127931 133397 137041 127931 135219 127931 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863 96957 129753 137041 137041 133397 126109 131575 96957 135219 137041 140685 138863 131575 96957 142507 137041 142507 135219 138863 96957 142507 137041 142507 135219 138863</file>
 </folder>
 <folder name="log">
+<file name="@3508_3.235.29.128_Disconnected">@3508 3.235.29.128 Disconnected</file>
+<file name="@3494_Connection:_from_3.235.29.128">@3494 Connection: from 3.235.29.128</file>
+<file name="@3455_LOCAL_ADMIN_Closed_Port#1433">@3455 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@3455_LOCAL_ADMIN_Closed_Port#80">@3455 LOCAL_ADMIN Closed Port#80</file>
+<file name="@3455_LOCAL_ADMIN_Closed_Port#22">@3455 LOCAL_ADMIN Closed Port#22</file>
+<file name="@3455_LOCAL_ADMIN_Closed_Port#25">@3455 LOCAL_ADMIN Closed Port#25</file>
+<file name="@3455_LOCAL_ADMIN_Closed_Port#21">@3455 LOCAL_ADMIN Closed Port#21</file>
+<file name="@3453_3.235.29.128_Disconnected">@3453 3.235.29.128 Disconnected</file>
+<file name="@3419_FileCopied:_by_3.235.29.128_-_file:Decypher.exe">@3419 FileCopied: by 3.235.29.128 - file:Decypher.exe</file>
+<file name="@3384_FileRead:_by_3.235.29.128_-_file:RE:Decypher_Memo.txt">@3384 FileRead: by 3.235.29.128 - file:RE:Decypher_Memo.txt</file>
+<file name="@2870_FileRead:_by_3.235.29.128_-_file:encrypt.dec">@2870 FileRead: by 3.235.29.128 - file:encrypt.dec</file>
+<file name="@2866_FileRead:_by_3.235.29.128_-_file:encrypt.dec">@2866 FileRead: by 3.235.29.128 - file:encrypt.dec</file>
+<file name="@2851_FileRead:_by_3.235.29.128_-_file:IRC_Log:434593+(11993)">@2851 FileRead: by 3.235.29.128 - file:IRC_Log:434593+(11993)</file>
+<file name="@2845_Connection:_from_3.235.29.128">@2845 Connection: from 3.235.29.128</file>
+<file name="@2845_3.235.29.128_Disconnected">@2845 3.235.29.128 Disconnected</file>
+<file name="@2845_3.235.29.128_Became_Admin">@2845 3.235.29.128 Became Admin</file>
+<file name="@2838_3.235.29.128_Opened_Port#25">@2838 3.235.29.128 Opened Port#25</file>
+<file name="@2828_3.235.29.128_Opened_Port#21">@2828 3.235.29.128 Opened Port#21</file>
+<file name="@2825_3.235.29.128_Opened_Port#22">@2825 3.235.29.128 Opened Port#22</file>
+<file name="@2821_3.235.29.128_Opened_Port#80">@2821 3.235.29.128 Opened Port#80</file>
+<file name="@2816_3.235.29.128_Opened_Port#1433">@2816 3.235.29.128 Opened Port#1433</file>
+<file name="@2796_Connection:_from_3.235.29.128">@2796 Connection: from 3.235.29.128</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -34657,6 +34955,7 @@ Archived Via : http://Bash.org</file>
 127931 127931 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 126109 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 126109 126109 126109 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 126109 126109 126109 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 126109 126109 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 126109 126109 126109 126109 127931 126109 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 126109 126109 126109 126109 127931 126109 126109 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 126109 126109 126109 127931 126109 126109 127931 126109 126109 127931 126109 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 126109 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 126109 126109 126109 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 126109 126109 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109</file>
 <file name="DECE_TestBuild.dec">#DEC_ENC::189879 240895 251827 246361 219031 222675 96957 160727 240895 220853 222675::127931 126109 127931 122465 126109 122465 140685 142507 122465 127931 135219 133397::164371 180769 160727 182591 162549 164371 162549::122465 217209 229963 239073
 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 126109 126109 126109 126109 126109 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 126109 126109 126109 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 126109 126109 126109 126109 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 126109 126109 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 126109 127931 126109 126109 126109 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 126109 127931 127931 126109 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 126109 127931 126109 126109 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931</file>
+<file name="DECE_TestBuild.bin">11111001011100110111111101011110011101000011101110100111001010110101110101101101110111111110101101000101010010111011100110001101011111001000101010001011101100101101111111011111010011111100101110111101111001011101100110100101111011110010111001100010011011100101000111110110000001011000111001001101010100111111110000101011001100011101111111111011100110111111111110101101111111111100010101001110111101101011011111011110001010011101100001011110111111110101111100101011111101110010010111001111011110011100110110111110010110101101101111111101101100111110010111011110011011000111010111111101001001101101101110111000001100100110111110111101010010100000111001011101111100110110101011100000101101110110001111111110001011111111110100010110010110100111000011101000101010101001010111000001000101110100010011011100111101111110010011000001011101000111111111000101001110011001101111111001100011111001001001111001000110110001111010111100111100000111111001001100011111011101101011101000010010111010011100101101111111010011111000101110101111110011000101010001111101001100101010101110011111001010111001001111101100111001100101110011000100111111011000001110011111001011101010110001100100010101011100011111110111101011111010010111010110111001110110010011001010011111100100100001100111010101100110011001011111010001101111000001000000111011101001111110110100101011111010001010110010110010011101001011111011011110010111100111100010100111110100111100100111111010010101011011010101011110000101100001110111011011110111100111010111011101100011101010011011000011100101100111010111110110011000101010111010011001001001110000101010110110001101110110101100111010001001011111100110101111000110111100101111100111011011110000110111010011101000100011111111001111110001110010111000111</file>
 </folder>
 <folder name="K.Abrams">
 <file name="DECE_TestBuild_pdb.dec">#DEC_ENC::189879 240895 251827 246361 219031 222675 96957 160727 240895 220853 222675::127931 126109 127931 122465 126109 122465 140685 142507 122465 127931 135219 133397::164371 180769 160727 182591 162549 164371 162549::122465 242717 220853 217209
@@ -34673,14 +34972,14 @@ Archived Via : http://Bash.org</file>
 </filesystem>
 </computer>
 <computer name="DEC方案小组网络服务器" ip="147.66.61.190" type="1" spec="none" id="decSoftWeb"  >
-<location x="0.8755404" y="0.04633769" /><security level="2" traceTime="-1" portsToCrack="1" adminIP="63.60.187.207" /><admin type="none" resetPass="false" isSuper="false" /><links> 154</links>
+<location x="0.8755404" y="0.04633769" /><security level="2" traceTime="-1" portsToCrack="1" adminIP="3.235.29.128" /><admin type="none" resetPass="false" isSuper="false" /><links> 154</links>
 <firewall complexity="1" solution="ENCRYPT" additionalDelay="0" />
 <portsOpen> 80 1433</portsOpen>
 <users>
-<user name="admin" pass="great" type="1" known="False" />
+<user name="admin" pass="great" type="1" known="True" />
 </users>
 <daemons>
-<WebServer name="www.DEC-Solutions.com" url="" />
+<WebServer name="www.DEC-Solutions.com" url="index.html" />
 </daemons>
 <filesystem>
 <folder name="/">
@@ -34696,6 +34995,22 @@ Archived Via : http://Bash.org</file>
 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 126109 126109 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 126109 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 126109 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 126109 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 126109 126109 127931 126109 126109 126109 126109 126109 127931 127931 127931 126109 126109 126109 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 126109 126109 126109 126109 127931 126109 126109 126109 126109 127931 126109 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 126109 126109 127931 127931 127931 126109 126109 126109 126109 126109 126109 127931 126109 126109 126109 126109 127931 126109 126109 126109 126109 126109 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 126109 127931 126109 127931 126109 127931 126109 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 126109 126109 127931 127931 126109 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 126109 126109 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 127931 126109 127931 126109 126109 127931 127931 126109 126109 126109 126109 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 126109 126109 126109 126109 126109 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 127931 126109 126109 127931 126109 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 126109 127931 126109 126109 127931 126109 126109 127931 126109 127931 126109 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 126109 127931 126109 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 126109 126109 127931 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 126109 126109 126109 127931 127931 127931 126109 126109 126109 127931 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 127931 126109 126109 127931 126109 126109 126109 127931 126109 127931 126109 126109 127931 127931 126109 127931 126109 126109 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 127931 127931 126109 127931 126109 126109 127931 127931 126109 127931 127931 126109 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 127931 126109 126109 126109 126109 126109 126109 127931 127931 127931 127931 127931 126109 126109 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 127931 126109 127931 126109 127931 126109 127931 126109 126109 126109 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109 127931 126109 126109 127931 127931 126109 127931 127931 127931 126109 126109 127931 127931 126109 127931 126109 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 127931 126109 126109 126109 127931 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 127931 126109 127931 126109 127931 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 126109 127931 126109 127931 127931 127931 126109 126109 126109 126109 126109 127931 126109 126109 127931 126109 126109 127931 127931 127931 126109 126109 126109 127931 127931 127931 127931 127931 126109 127931 127931 127931 127931 127931 127931 127931 127931 127931 127931 126109 126109 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 127931 126109 127931 127931 127931 126109 126109 127931 126109 126109 126109 127931 127931 126109 126109 126109 127931 127931 127931 126109 127931 126109 126109 126109 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 127931 127931 126109 126109 126109 127931 127931 126109 126109 127931 127931 126109 127931 126109 127931 127931 127931 127931 127931 127931 126109 127931 127931 126109 126109 127931 126109 127931 127931 127931 127931 126109 126109</file>
 </folder>
 <folder name="log">
+<file name="@3494_3.235.29.128_Disconnected">@3494 3.235.29.128 Disconnected</file>
+<file name="@3491_Connection:_from_3.235.29.128">@3491 Connection: from 3.235.29.128</file>
+<file name="@3454_3.235.29.128_Disconnected">@3454 3.235.29.128 Disconnected</file>
+<file name="@3453_Connection:_from_3.235.29.128">@3453 Connection: from 3.235.29.128</file>
+<file name="@2796_3.235.29.128_Disconnected">@2796 3.235.29.128 Disconnected</file>
+<file name="@2780_FileRead:_by_3.235.29.128_-_file:index.html">@2780 FileRead: by 3.235.29.128 - file:index.html</file>
+<file name="@2774_FileRead:_by_3.235.29.128_-_file:DECE_TestBuild_pdb.dec">@2774 FileRead: by 3.235.29.128 - file:DECE_TestBuild_pdb.dec</file>
+<file name="@2772_FileRead:_by_3.235.29.128_-_file:New_Policies.dec">@2772 FileRead: by 3.235.29.128 - file:New_Policies.dec</file>
+<file name="@2768_FileRead:_by_3.235.29.128_-_file:Staff_Memo.dec">@2768 FileRead: by 3.235.29.128 - file:Staff_Memo.dec</file>
+<file name="@2765_FileRead:_by_3.235.29.128_-_file:README.txt">@2765 FileRead: by 3.235.29.128 - file:README.txt</file>
+<file name="@2757_Connection:_from_3.235.29.128">@2757 Connection: from 3.235.29.128</file>
+<file name="@2757_3.235.29.128_Disconnected">@2757 3.235.29.128 Disconnected</file>
+<file name="@2757_3.235.29.128_Became_Admin">@2757 3.235.29.128 Became Admin</file>
+<file name="@2729_3.235.29.128_Opened_Port#80">@2729 3.235.29.128 Opened Port#80</file>
+<file name="@2724_3.235.29.128_Opened_Port#1433">@2724 3.235.29.128 Opened Port#1433</file>
+<file name="@2699_Connection:_from_3.235.29.128">@2699 Connection: from 3.235.29.128</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -35074,7 +35389,7 @@ Archived Via : http://Bash.org</file>
 <location x="0.2626123" y="0.3936434" /><security level="3" traceTime="2.5" portsToCrack="2" adminIP="152.254.98.127" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
 <portsOpen> 80 22 1433</portsOpen>
 <users>
-<user name="admin" pass="leather" type="0" known="False" />
+<user name="admin" pass="12345678" type="0" known="False" />
 </users>
 <daemons>
 </daemons>
@@ -35178,6 +35493,9 @@ Archived Via : http://Bash.org</file>
 </folder>
 </folder>
 <folder name="log">
+<file name="@2610_3.235.29.128_Disconnected">@2610 3.235.29.128 Disconnected</file>
+<file name="@2607_Connection:_from_3.235.29.128">@2607 Connection: from 3.235.29.128</file>
+<file name="@1101_Connection:_from_3.235.29.128">@1101 Connection: from 3.235.29.128</file>
 <file name="@809_144.59.167.79_Disconnected">@809 144.59.167.79 Disconnected</file>
 <file name="@798_Connection:_from_144.59.167.79">@798 Connection: from 144.59.167.79</file>
 <file name="@793_LOCAL_ADMIN_Closed_Port#1433">@793 LOCAL_ADMIN Closed Port#1433</file>
@@ -36402,6 +36720,6 @@ http://angelus-hellion.deviantart.com
 </NetworkMap><mission next="NULL_MISSION" goals="none" activeCheck="none">
 </mission><branchMissions>
 </branchMissions><AllFactions current="hub">
-	<EntropyFaction name="Entropy" id="entropy" neededVal="5" playerVal="5" playerHasPassed="True" />	<Faction name="lelzSec" id="lelzSec" neededVal="1000" playerVal="0" playerHasPassed="False" />	<HubFaction name="CSEC" id="hub" neededVal="10" playerVal="5" playerHasPassed="False" />	
+	<EntropyFaction name="Entropy" id="entropy" neededVal="5" playerVal="5" playerHasPassed="True" />	<Faction name="lelzSec" id="lelzSec" neededVal="1000" playerVal="0" playerHasPassed="False" />	<HubFaction name="CSEC" id="hub" neededVal="10" playerVal="6" playerHasPassed="False" />	
 <CustomFaction name="DLC Faction" id="Bibliotheque" neededVal="100" playerVal="20" playerHasPassed="False" >
 </CustomFaction></AllFactions><other music="Music/Traced" homeNode="mainHub" homeAssetsNode="mainHubAssets" /></HacknetSave>
