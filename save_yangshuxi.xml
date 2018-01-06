@@ -7,10 +7,10 @@
 </ConditionalActions>
 </DLC><Flags>startVer:v5.069,TutorialComplete,FirstAlertComplete,progress_entropy_Unlocked,eosPathStarted,dlc_start_entropy,KaguyaTrialComplete,DLC_Player_IRC_Authenticated,themeswitch_run_Unlocked,startupBreakinTrapActivated,startupBreakinTrapPassed,AircraftInfoOverlayActivated,DLC_PlaneCrashedResponseTriggered,DLC_PlaneResult,AircraftInfoOverlayDeactivated,dlc_complete,dlc_complete_FromEntropy,ThemeHackTransitionAssetsAdded,BootFailure,BootFailureThemeSongChange,trace_close_Unlocked,CSEC_Member,progress_csec_Unlocked,themeChangerAdded</Flags>
 <NetworkMap sort="LockGrid" >
-<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21 53 51 55 34 32 68 66 67 25 26 24 27 29 28 31 30 73 71 72 37 36 39 35 40 42 44 45 46 47 41 38 43 50 49 48 57 58 1 118 112 124 114 123 99 103 115 78 2 113 127 120 117 119 60 116 128 102 107 146 145 144 147 150 149 151 6 5 161 160 110 111</visible>
+<visible>0 11 12 9 10 13 14 15 22 17 18 20 19 21 53 51 55 34 32 68 66 67 25 26 24 27 29 28 31 30 73 71 72 37 36 39 35 40 42 44 45 46 47 41 38 43 50 49 48 57 58 1 118 112 124 114 123 99 103 115 78 2 113 127 120 117 119 60 116 128 102 107 146 145 144 147 150 149 151 6 5 161 160 110 111 158 109</visible>
 <network>
-<computer name="yangshuxi PC" ip="221.184.54.246" type="4" spec="player" id="playerComp"  >
-<location x="0.1" y="0.5" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="221.184.54.246" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
+<computer name="yangshuxi PC" ip="3.235.29.128" type="4" spec="player" id="playerComp"  >
+<location x="0.1" y="0.5" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="3.235.29.128" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
 <firewall complexity="0" solution="9S71IF" additionalDelay="0" />
 <portsOpen> 80 25 21 22</portsOpen>
 <users>
@@ -179,6 +179,20 @@ Notes :: 患者有急性睾丸象皮病, 首先指出, 患者在8岁时已经接
 </file>
 </folder>
 <folder name="log">
+<file name="@883_Connection:_from_3.235.29.128">@883 Connection: from 3.235.29.128</file>
+<file name="@121_144.59.167.79_Disconnected">@121 144.59.167.79 Disconnected</file>
+<file name="@117_Connection:_from_144.59.167.79">@117 Connection: from 144.59.167.79</file>
+<file name="@3_148.229.241.163_Disconnected">@3 148.229.241.163 Disconnected</file>
+<file name="@0_Connection:_from_148.229.241.163">@0 Connection: from 148.229.241.163</file>
+<file name="@27389_232.53.138.148_Disconnected">@27389 232.53.138.148 Disconnected</file>
+<file name="@27384_Connection:_from_232.53.138.148">@27384 Connection: from 232.53.138.148</file>
+<file name="@27235_232.53.138.148_Disconnected">@27235 232.53.138.148 Disconnected</file>
+<file name="@27231_Connection:_from_232.53.138.148">@27231 Connection: from 232.53.138.148</file>
+<file name="@27127_34.109.24.144_Disconnected">@27127 34.109.24.144 Disconnected</file>
+<file name="@27093_Connection:_from_34.109.24.144">@27093 Connection: from 34.109.24.144</file>
+<file name="@26839_Connection:_from_43.49.26.32">@26839 Connection: from 43.49.26.32</file>
+<file name="@26702_14.233.35.180_Disconnected">@26702 14.233.35.180 Disconnected</file>
+<file name="@26701_Connection:_from_14.233.35.180">@26701 Connection: from 14.233.35.180</file>
 <file name="@24250_FileMoved:_by_221.184.54.246_-_file:John_Boorman|##LSB##|12358|##RSB##|_To:_John_Boorman|##LSB##|125853|##RSB##|">@24250 FileMoved: by 221.184.54.246 - file:John_Boorman|##LSB##|12358|##RSB##| To: John_Boorman|##LSB##|125853|##RSB##|</file>
 <file name="@24203_FileRead:_by_221.184.54.246_-_file:John_Boorman|##LSB##|12358|##RSB##|">@24203 FileRead: by 221.184.54.246 - file:John_Boorman|##LSB##|12358|##RSB##|</file>
 <file name="@24196_FileMoved:_by_221.184.54.246_-_file:template.txt_To:_John_Boorman|##LSB##|12358|##RSB##|">@24196 FileMoved: by 221.184.54.246 - file:template.txt To: John_Boorman|##LSB##|12358|##RSB##|</file>
@@ -451,7 +465,6 @@ Notes :: 患者有急性睾丸象皮病, 首先指出, 患者在8岁时已经接
 <file name="x-serverBACKUP(10).sys">7297991071101011167710511011655</file>
 <file name="x-serverBACKUP(11).sys">7297991071101011166610811710149</file>
 <file name="x-serverBACKUP(12).sys">7297991071101011168710410511610153</file>
-<file name="Notes_Reopener.bat">true</file>
 </folder>
 </folder>
 </filesystem>
@@ -503,11 +516,11 @@ texture_folder: |##QOT##|C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/
 </filesystem>
 </computer>
 <computer name="JMail.com" ip="74.125.237.119" type="1" spec="mail" id="jmail"  >
-<location x="0.7" y="0.2" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="221.184.54.246" /><admin type="basic" resetPass="true" isSuper="false" /><links></links>
+<location x="0.7" y="0.2" /><security level="5" traceTime="75" proxyTime="30" portsToCrack="3" adminIP="74.125.237.119" /><admin type="basic" resetPass="true" isSuper="false" /><links></links>
 <firewall complexity="0" solution="SXZUY4" additionalDelay="0" />
 <portsOpen> 80 25 21 22</portsOpen>
 <users>
-<user name="admin" pass="gandalf" type="0" known="True" />
+<user name="admin" pass="shadow" type="0" known="False" />
 <user name="dlocke" pass="sandalphon" type="2" known="False" />
 <user name="gila" pass="420PraiseIt" type="2" known="False" />
 <user name="vapor" pass="d771njk38A" type="2" known="False" />
@@ -536,6 +549,23 @@ texture_folder: |##QOT##|C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@26978_43.49.26.32_Disconnected">@26978 43.49.26.32 Disconnected</file>
+<file name="@26712_14.233.35.180_Disconnected">@26712 14.233.35.180 Disconnected</file>
+<file name="@26530_LOCAL_ADMIN_Closed_Port#22">@26530 LOCAL_ADMIN Closed Port#22</file>
+<file name="@26530_LOCAL_ADMIN_Closed_Port#21">@26530 LOCAL_ADMIN Closed Port#21</file>
+<file name="@26530_LOCAL_ADMIN_Closed_Port#25">@26530 LOCAL_ADMIN Closed Port#25</file>
+<file name="@26530_LOCAL_ADMIN_Closed_Port#80">@26530 LOCAL_ADMIN Closed Port#80</file>
+<file name="@26514_221.184.54.246_Disconnected">@26514 221.184.54.246 Disconnected</file>
+<file name="@26488_221.184.54.246_Disconnected">@26488 221.184.54.246 Disconnected</file>
+<file name="@26238_221.184.54.246_Became_Admin">@26238 221.184.54.246 Became Admin</file>
+<file name="@26163_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26163 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26157_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26157 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26151_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26151 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26148_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26148 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26141_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26141 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26133_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26133 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26094_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26094 FileRead: by 221.184.54.246 - file:AccountInfo</file>
+<file name="@26080_FileRead:_by_221.184.54.246_-_file:AccountInfo">@26080 FileRead: by 221.184.54.246 - file:AccountInfo</file>
 <file name="@25154_221.184.54.246_Disconnected">@25154 221.184.54.246 Disconnected</file>
 <file name="@25152_FileCreated:_by_221.184.54.246_-_file:sandburg_jonas.rec">@25152 FileCreated: by 221.184.54.246 - file:sandburg_jonas.rec</file>
 <file name="@25126_Connection:_from_221.184.54.246">@25126 Connection: from 221.184.54.246</file>
@@ -642,7 +672,7 @@ texture_folder: |##QOT##|C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/
 <folder name="accounts">
 <folder name="admin">
 <folder name="inbox">
-<file name="Re:_Junk#0">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+<file name="Re:_Junk#0">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 admin@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 Re: Junk@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 HOr$e Exp@nding R0Lexxxx corp
@@ -662,7 +692,7 @@ I am but a humble nigerian prince who is crippled by the instability in my count
 Please send these funds to real_nigerian_prince_the_third@boatmail.com
 Yours in jegus,
 Nigerian Prince</file>
-<file name="Re:_Junk#0">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+<file name="Re:_Junk#0">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 admin@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 Re: Junk@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 HOr$e Exp@nding R0Lexxxx corp
@@ -1667,10 +1697,31 @@ CSEC ReplyBot@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 恭喜, 
 你接受的任务已经完成, 客户对你的工作非常满意. 
 你现在可以去数据库里随意接受其他的任务了. 
+你现在在100个人中排名第50. 
+谢谢
+CSEC</file>
+<file name="警告线">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+CSEC Hub Services@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+警告线@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+
+嘿, 
+我不能提供什么有用的信息给你. 如果你非要问的话, 我是通过一个扫描软件发现这个服务器的, 它开启了trace, 所以我没敢逗留太久, 但是比我更有经验的黑客可能会愿意去调查一番. 
+如果发现了什么就告诉我. 你可别跟我说你也攻不破! 
+-Anon
+    @*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+link#%#CCC 黑客小队 文件转储#%#152.254.98.127@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+</file>
+<file name="合同完成">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+CSEC ReplyBot@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+合同完成@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+
+恭喜, 
+你接受的任务已经完成, 客户对你的工作非常满意. 
+你现在可以去数据库里随意接受其他的任务了. 
 你现在在100个人中排名第60. 
 谢谢
 CSEC</file>
-<file name="Re:_医神之杖">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+<file name="Re:_医神之杖">1@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 CSEC Hub Services@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 Re: 医神之杖@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 
@@ -2393,6 +2444,10 @@ yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 医神之杖 : Complete@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
 医神之杖 completed.</file>
+<file name="警告线_:_Complete">0@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+yangshuxi@JMail.com@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+警告线 : Complete@*|##AMP##|^#%@)_!_)*#^@!|##AMP##|*)(#^|##AMP##|
+警告线 completed.</file>
 </folder>
 <file name="AccountInfo">Username: yangshuxi
 Password: password</file>
@@ -4339,6 +4394,9 @@ LastName_FirstName|##LSB##|RecordNumber|##RSB##|
 </folder>
 </folder>
 <folder name="log">
+<file name="@27264_232.53.138.148_Disconnected">@27264 232.53.138.148 Disconnected</file>
+<file name="@27254_232.53.138.148_Became_Admin">@27254 232.53.138.148 Became Admin</file>
+<file name="@27249_Connection:_from_232.53.138.148">@27249 Connection: from 232.53.138.148</file>
 <file name="@24630_221.184.54.246_Disconnected">@24630 221.184.54.246 Disconnected</file>
 <file name="@24627_Connection:_from_221.184.54.246">@24627 Connection: from 221.184.54.246</file>
 <file name="@24488_221.184.54.246_Disconnected">@24488 221.184.54.246 Disconnected</file>
@@ -4491,6 +4549,7 @@ Archived Via : http://Bash.org</file>
 </folder>
 </folder>
 <folder name="log">
+<file name="@26488_Connection:_from_221.184.54.246">@26488 Connection: from 221.184.54.246</file>
 <file name="@24630_Connection:_from_221.184.54.246">@24630 Connection: from 221.184.54.246</file>
 <file name="@24488_Connection:_from_221.184.54.246">@24488 Connection: from 221.184.54.246</file>
 <file name="@23305_Connection:_from_221.184.54.246">@23305 Connection: from 221.184.54.246</file>
@@ -4611,28 +4670,6 @@ E2_TargetTaskTrack_1 =   #%#
 E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 733  #%#
-</file>
-<file name="Contract#754">CSEC Contract #754
---------------------------------------------  #%#
-Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 77 105 115 115 105 111 110 115 47 77 97 105 110 72 117 98 47 70 105 114 115 116 83 101 116 47 48 54 72 117 98 83 101 116 48 55 46 120 109 108
-  #%#
-Client = UNKNOWN  #%#
-Target = UNKNOWN  #%#
-RequiredRank = 0  #%#
-Difficulty = 0
-  #%#
-Title = 调查一个可疑的服务器  #%#
-Posting = 
-我发现了一个可疑的服务器, 本想调查一番, 但我水平有限, 没法攻破它的防御措施. 不过组织里也许有人想去调查一下. 
-  
-  #%#
-E_TargetTrack =   #%#
-E_TargetTaskData =   #%#
-E_TargetTaskTrack =   #%#
-E2_TargetTaskTrack_1 =   #%#
-E3_TargetTaskTrack_2 =   #%#
-E3_TargetTaskTrack_3 = cmd  #%#
-E4_ContractReg = 754  #%#
 </file>
 <file name="Contract#798">CSEC Contract #798
 --------------------------------------------  #%#
@@ -4837,6 +4874,33 @@ E2_TargetTaskTrack_1 =   #%#
 E3_TargetTaskTrack_2 =   #%#
 E3_TargetTaskTrack_3 = cmd  #%#
 E4_ContractReg = 322  #%#
+</file>
+<file name="Contract#754Archive">Contract Archive:
+Accepted : 1/6/2018 4:41:56 PM
+User : yangshuxi
+Active Since : 1/6/2018 4:41:51 PM
+
+CSEC Contract #754
+--------------------------------------------  #%#
+Code = 67 111 110 116 101 110 116 47 76 111 99 97 108 101 115 47 122 104 45 99 110 47 77 105 115 115 105 111 110 115 47 77 97 105 110 72 117 98 47 70 105 114 115 116 83 101 116 47 48 54 72 117 98 83 101 116 48 55 46 120 109 108
+  #%#
+Client = UNKNOWN  #%#
+Target = UNKNOWN  #%#
+RequiredRank = 0  #%#
+Difficulty = 0
+  #%#
+Title = 调查一个可疑的服务器  #%#
+Posting = 
+我发现了一个可疑的服务器, 本想调查一番, 但我水平有限, 没法攻破它的防御措施. 不过组织里也许有人想去调查一下. 
+  
+  #%#
+E_TargetTrack =   #%#
+E_TargetTaskData =   #%#
+E_TargetTaskTrack =   #%#
+E2_TargetTaskTrack_1 =   #%#
+E3_TargetTaskTrack_2 =   #%#
+E3_TargetTaskTrack_3 = cmd  #%#
+E4_ContractReg = 754  #%#
 </file>
 </folder>
 </folder>
@@ -6975,6 +7039,7 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 </folder>
 </folder>
 <folder name="log">
+<file name="@26678_#SHELL_Closed">@26678 #SHELL_Closed</file>
 <file name="@24841_#SHELL_Overload_@_208.93.170.15">@24841 #SHELL_Overload_@_208.93.170.15</file>
 <file name="@20589_#SHELL_Overload_@_74.125.237.119">@20589 #SHELL_Overload_@_74.125.237.119</file>
 <file name="@14571_#SHELL_Overload_@_80.250.216.26">@14571 #SHELL_Overload_@_80.250.216.26</file>
@@ -7026,6 +7091,7 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 <folder name="home">
 </folder>
 <folder name="log">
+<file name="@26678_#SHELL_Closed">@26678 #SHELL_Closed</file>
 <file name="@24841_#SHELL_Overload_@_208.93.170.15">@24841 #SHELL_Overload_@_208.93.170.15</file>
 <file name="@20589_#SHELL_Overload_@_74.125.237.119">@20589 #SHELL_Overload_@_74.125.237.119</file>
 <file name="@14571_#SHELL_Overload_@_80.250.216.26">@14571 #SHELL_Overload_@_80.250.216.26</file>
@@ -7088,6 +7154,7 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 </folder>
 </folder>
 <folder name="log">
+<file name="@26678_#SHELL_Closed">@26678 #SHELL_Closed</file>
 <file name="@24841_#SHELL_Overload_@_208.93.170.15">@24841 #SHELL_Overload_@_208.93.170.15</file>
 <file name="@20589_#SHELL_Overload_@_74.125.237.119">@20589 #SHELL_Overload_@_74.125.237.119</file>
 <file name="@14571_#SHELL_Overload_@_80.250.216.26">@14571 #SHELL_Overload_@_80.250.216.26</file>
@@ -22670,10 +22737,10 @@ Archived Via : http://Bash.org</file>
 </filesystem>
 </computer>
 <computer name="ISP管理服务器" ip="68.144.93.18" type="4" spec="none" id="ispComp"  >
-<location x="0.5018693" y="0.8632796" /><security level="5" traceTime="-1" proxyTime="-1" portsToCrack="2" adminIP="45.36.102.203" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
+<location x="0.5018693" y="0.8632796" /><security level="5" traceTime="-1" proxyTime="-1" portsToCrack="2" adminIP="68.144.93.18" /><admin type="basic" resetPass="false" isSuper="false" /><links></links>
 <portsOpen> 80 22 1433</portsOpen>
 <users>
-<user name="admin" pass="tracert" type="0" known="False" />
+<user name="admin" pass="tracert" type="0" known="True" />
 </users>
 <daemons>
 <ispSystem />
@@ -22694,6 +22761,96 @@ Archived Via : http://Bash.org</file>
 1-800-827-6364</file>
 </folder>
 <folder name="log">
+<file name="@870_LOCAL_ADMIN_Closed_Port#1433">@870 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@870_LOCAL_ADMIN_Closed_Port#22">@870 LOCAL_ADMIN Closed Port#22</file>
+<file name="@870_LOCAL_ADMIN_Closed_Port#80">@870 LOCAL_ADMIN Closed Port#80</file>
+<file name="@849_Connection:_from_144.59.167.79">@849 Connection: from 144.59.167.79</file>
+<file name="@849_144.59.167.79_Disconnected">@849 144.59.167.79 Disconnected</file>
+<file name="@849_144.59.167.79_Became_Admin">@849 144.59.167.79 Became Admin</file>
+<file name="@839_144.59.167.79_Opened_Port#22">@839 144.59.167.79 Opened Port#22</file>
+<file name="@830_144.59.167.79_Opened_Port#1433">@830 144.59.167.79 Opened Port#1433</file>
+<file name="@830_144.59.167.79_Opened_Port#80">@830 144.59.167.79 Opened Port#80</file>
+<file name="@810_Connection:_from_144.59.167.79">@810 Connection: from 144.59.167.79</file>
+<file name="@624_144.59.167.79_Disconnected">@624 144.59.167.79 Disconnected</file>
+<file name="@620_Connection:_from_144.59.167.79_1">@620 Connection: from 144.59.167.79</file>
+<file name="@620_144.59.167.79_Disconnected">@620 144.59.167.79 Disconnected</file>
+<file name="@620_Connection:_from_144.59.167.79">@620 Connection: from 144.59.167.79</file>
+<file name="@439_144.59.167.79_Disconnected">@439 144.59.167.79 Disconnected</file>
+<file name="@433_Connection:_from_144.59.167.79">@433 Connection: from 144.59.167.79</file>
+<file name="@117_144.59.167.79_Disconnected">@117 144.59.167.79 Disconnected</file>
+<file name="@115_Connection:_from_144.59.167.79">@115 Connection: from 144.59.167.79</file>
+<file name="@104_LOCAL_ADMIN_Closed_Port#1433">@104 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@104_LOCAL_ADMIN_Closed_Port#22">@104 LOCAL_ADMIN Closed Port#22</file>
+<file name="@104_LOCAL_ADMIN_Closed_Port#80">@104 LOCAL_ADMIN Closed Port#80</file>
+<file name="@80_Connection:_from_148.229.241.163">@80 Connection: from 148.229.241.163</file>
+<file name="@80_148.229.241.163_Disconnected">@80 148.229.241.163 Disconnected</file>
+<file name="@80_148.229.241.163_Became_Admin">@80 148.229.241.163 Became Admin</file>
+<file name="@74_148.229.241.163_Opened_Port#80">@74 148.229.241.163 Opened Port#80</file>
+<file name="@64_148.229.241.163_Opened_Port#1433">@64 148.229.241.163 Opened Port#1433</file>
+<file name="@58_148.229.241.163_Opened_Port#22">@58 148.229.241.163 Opened Port#22</file>
+<file name="@42_Connection:_from_148.229.241.163">@42 Connection: from 148.229.241.163</file>
+<file name="@27495_LOCAL_ADMIN_Closed_Port#1433">@27495 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@27495_LOCAL_ADMIN_Closed_Port#22">@27495 LOCAL_ADMIN Closed Port#22</file>
+<file name="@27495_LOCAL_ADMIN_Closed_Port#80">@27495 LOCAL_ADMIN Closed Port#80</file>
+<file name="@27473_Connection:_from_232.53.138.148">@27473 Connection: from 232.53.138.148</file>
+<file name="@27473_232.53.138.148_Disconnected">@27473 232.53.138.148 Disconnected</file>
+<file name="@27473_232.53.138.148_Became_Admin">@27473 232.53.138.148 Became Admin</file>
+<file name="@27466_232.53.138.148_Opened_Port#80">@27466 232.53.138.148 Opened Port#80</file>
+<file name="@27457_232.53.138.148_Opened_Port#1433">@27457 232.53.138.148 Opened Port#1433</file>
+<file name="@27444_232.53.138.148_Opened_Port#22">@27444 232.53.138.148 Opened Port#22</file>
+<file name="@27431_Connection:_from_232.53.138.148">@27431 Connection: from 232.53.138.148</file>
+<file name="@27264_232.53.138.148_Disconnected">@27264 232.53.138.148 Disconnected</file>
+<file name="@27264_Connection:_from_232.53.138.148">@27264 Connection: from 232.53.138.148</file>
+<file name="@27218_LOCAL_ADMIN_Closed_Port#1433">@27218 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@27218_LOCAL_ADMIN_Closed_Port#22">@27218 LOCAL_ADMIN Closed Port#22</file>
+<file name="@27218_LOCAL_ADMIN_Closed_Port#80">@27218 LOCAL_ADMIN Closed Port#80</file>
+<file name="@27194_Connection:_from_34.109.24.144">@27194 Connection: from 34.109.24.144</file>
+<file name="@27194_34.109.24.144_Disconnected">@27194 34.109.24.144 Disconnected</file>
+<file name="@27194_34.109.24.144_Became_Admin">@27194 34.109.24.144 Became Admin</file>
+<file name="@27188_34.109.24.144_Opened_Port#80">@27188 34.109.24.144 Opened Port#80</file>
+<file name="@27178_34.109.24.144_Opened_Port#1433">@27178 34.109.24.144 Opened Port#1433</file>
+<file name="@27171_34.109.24.144_Opened_Port#22">@27171 34.109.24.144 Opened Port#22</file>
+<file name="@27159_Connection:_from_34.109.24.144">@27159 Connection: from 34.109.24.144</file>
+<file name="@27080_LOCAL_ADMIN_Closed_Port#1433">@27080 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@27080_LOCAL_ADMIN_Closed_Port#22">@27080 LOCAL_ADMIN Closed Port#22</file>
+<file name="@27080_LOCAL_ADMIN_Closed_Port#80">@27080 LOCAL_ADMIN Closed Port#80</file>
+<file name="@27055_Connection:_from_43.49.26.32">@27055 Connection: from 43.49.26.32</file>
+<file name="@27055_43.49.26.32_Disconnected">@27055 43.49.26.32 Disconnected</file>
+<file name="@27055_43.49.26.32_Became_Admin">@27055 43.49.26.32 Became Admin</file>
+<file name="@27049_43.49.26.32_Opened_Port#80">@27049 43.49.26.32 Opened Port#80</file>
+<file name="@27041_43.49.26.32_Opened_Port#1433">@27041 43.49.26.32 Opened Port#1433</file>
+<file name="@27033_43.49.26.32_Opened_Port#22">@27033 43.49.26.32 Opened Port#22</file>
+<file name="@27020_Connection:_from_43.49.26.32">@27020 Connection: from 43.49.26.32</file>
+<file name="@26987_43.49.26.32_Disconnected">@26987 43.49.26.32 Disconnected</file>
+<file name="@26978_Connection:_from_43.49.26.32">@26978 Connection: from 43.49.26.32</file>
+<file name="@26825_LOCAL_ADMIN_Closed_Port#1433">@26825 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@26825_LOCAL_ADMIN_Closed_Port#22">@26825 LOCAL_ADMIN Closed Port#22</file>
+<file name="@26825_LOCAL_ADMIN_Closed_Port#80">@26825 LOCAL_ADMIN Closed Port#80</file>
+<file name="@26804_Connection:_from_14.233.35.180">@26804 Connection: from 14.233.35.180</file>
+<file name="@26804_14.233.35.180_Disconnected">@26804 14.233.35.180 Disconnected</file>
+<file name="@26804_14.233.35.180_Became_Admin">@26804 14.233.35.180 Became Admin</file>
+<file name="@26796_14.233.35.180_Opened_Port#22">@26796 14.233.35.180 Opened Port#22</file>
+<file name="@26786_14.233.35.180_Opened_Port#1433">@26786 14.233.35.180 Opened Port#1433</file>
+<file name="@26786_14.233.35.180_Opened_Port#80">@26786 14.233.35.180 Opened Port#80</file>
+<file name="@26760_Connection:_from_14.233.35.180">@26760 Connection: from 14.233.35.180</file>
+<file name="@26724_14.233.35.180_Disconnected">@26724 14.233.35.180 Disconnected</file>
+<file name="@26723_Connection:_from_14.233.35.180">@26723 Connection: from 14.233.35.180</file>
+<file name="@26722_14.233.35.180_Disconnected">@26722 14.233.35.180 Disconnected</file>
+<file name="@26719_Connection:_from_14.233.35.180">@26719 Connection: from 14.233.35.180</file>
+<file name="@26718_14.233.35.180_Disconnected">@26718 14.233.35.180 Disconnected</file>
+<file name="@26712_Connection:_from_14.233.35.180">@26712 Connection: from 14.233.35.180</file>
+<file name="@26702_Connection:_from_14.233.35.180">@26702 Connection: from 14.233.35.180</file>
+<file name="@26688_LOCAL_ADMIN_Closed_Port#1433">@26688 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@26688_LOCAL_ADMIN_Closed_Port#22">@26688 LOCAL_ADMIN Closed Port#22</file>
+<file name="@26688_LOCAL_ADMIN_Closed_Port#80">@26688 LOCAL_ADMIN Closed Port#80</file>
+<file name="@26648_FileRead:_by_221.184.54.246_-_file:ISP_About_Message.txt">@26648 FileRead: by 221.184.54.246 - file:ISP_About_Message.txt</file>
+<file name="@26643_Connection:_from_221.184.54.246">@26643 Connection: from 221.184.54.246</file>
+<file name="@26643_221.184.54.246_Disconnected">@26643 221.184.54.246 Disconnected</file>
+<file name="@26643_221.184.54.246_Became_Admin">@26643 221.184.54.246 Became Admin</file>
+<file name="@26635_221.184.54.246_Opened_Port#1433">@26635 221.184.54.246 Opened Port#1433</file>
+<file name="@26630_221.184.54.246_Opened_Port#80">@26630 221.184.54.246 Opened Port#80</file>
+<file name="@26621_221.184.54.246_Opened_Port#22">@26621 221.184.54.246 Opened Port#22</file>
+<file name="@26607_Connection:_from_221.184.54.246">@26607 Connection: from 221.184.54.246</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -33925,7 +34082,7 @@ Tab键可以用来自动补全要上传的本地文件的路径和文件名.
 <user name="admin" pass="helpme" type="1" known="True" />
 </users>
 <daemons>
-<WebServer name="CFC Homepage" url="index.html" />
+<WebServer name="CFC Homepage" url="" />
 </daemons>
 <filesystem>
 <folder name="/">
@@ -34914,10 +35071,10 @@ Archived Via : http://Bash.org</file>
 </filesystem>
 </computer>
 <computer name="CCC 黑客小队 文件转储" ip="152.254.98.127" type="1" spec="none" id="honeypot01"  >
-<location x="0.2626123" y="0.3936434" /><security level="3" traceTime="2.5" portsToCrack="2" adminIP="71.132.231.142" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
+<location x="0.2626123" y="0.3936434" /><security level="3" traceTime="2.5" portsToCrack="2" adminIP="152.254.98.127" /><admin type="fast" resetPass="true" isSuper="false" /><links></links>
 <portsOpen> 80 22 1433</portsOpen>
 <users>
-<user name="admin" pass="honeypot" type="0" known="False" />
+<user name="admin" pass="leather" type="0" known="False" />
 </users>
 <daemons>
 </daemons>
@@ -35021,6 +35178,99 @@ Archived Via : http://Bash.org</file>
 </folder>
 </folder>
 <folder name="log">
+<file name="@809_144.59.167.79_Disconnected">@809 144.59.167.79 Disconnected</file>
+<file name="@798_Connection:_from_144.59.167.79">@798 Connection: from 144.59.167.79</file>
+<file name="@793_LOCAL_ADMIN_Closed_Port#1433">@793 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@793_LOCAL_ADMIN_Closed_Port#22">@793 LOCAL_ADMIN Closed Port#22</file>
+<file name="@793_LOCAL_ADMIN_Closed_Port#80">@793 LOCAL_ADMIN Closed Port#80</file>
+<file name="@793_144.59.167.79_Disconnected">@793 144.59.167.79 Disconnected</file>
+<file name="@784_Connection:_from_144.59.167.79">@784 Connection: from 144.59.167.79</file>
+<file name="@761_144.59.167.79_Disconnected">@761 144.59.167.79 Disconnected</file>
+<file name="@748_Connection:_from_144.59.167.79_1">@748 Connection: from 144.59.167.79</file>
+<file name="@748_144.59.167.79_Disconnected">@748 144.59.167.79 Disconnected</file>
+<file name="@748_Connection:_from_144.59.167.79">@748 Connection: from 144.59.167.79</file>
+<file name="@723_144.59.167.79_Disconnected">@723 144.59.167.79 Disconnected</file>
+<file name="@698_Connection:_from_144.59.167.79">@698 Connection: from 144.59.167.79</file>
+<file name="@632_144.59.167.79_Disconnected">@632 144.59.167.79 Disconnected</file>
+<file name="@624_Connection:_from_144.59.167.79">@624 Connection: from 144.59.167.79</file>
+<file name="@555_144.59.167.79_Disconnected">@555 144.59.167.79 Disconnected</file>
+<file name="@529_Connection:_from_144.59.167.79">@529 Connection: from 144.59.167.79</file>
+<file name="@510_144.59.167.79_Disconnected">@510 144.59.167.79 Disconnected</file>
+<file name="@503_Connection:_from_144.59.167.79">@503 Connection: from 144.59.167.79</file>
+<file name="@495_144.59.167.79_Opened_Port#80">@495 144.59.167.79 Opened Port#80</file>
+<file name="@491_144.59.167.79_Opened_Port#22">@491 144.59.167.79 Opened Port#22</file>
+<file name="@484_144.59.167.79_Disconnected">@484 144.59.167.79 Disconnected</file>
+<file name="@474_Connection:_from_144.59.167.79">@474 Connection: from 144.59.167.79</file>
+<file name="@465_144.59.167.79_Opened_Port#1433">@465 144.59.167.79 Opened Port#1433</file>
+<file name="@455_144.59.167.79_Disconnected">@455 144.59.167.79 Disconnected</file>
+<file name="@439_Connection:_from_144.59.167.79">@439 Connection: from 144.59.167.79</file>
+<file name="@433_LOCAL_ADMIN_Closed_Port#1433">@433 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@433_LOCAL_ADMIN_Closed_Port#22">@433 LOCAL_ADMIN Closed Port#22</file>
+<file name="@433_LOCAL_ADMIN_Closed_Port#80">@433 LOCAL_ADMIN Closed Port#80</file>
+<file name="@433_144.59.167.79_Disconnected">@433 144.59.167.79 Disconnected</file>
+<file name="@421_Connection:_from_144.59.167.79">@421 Connection: from 144.59.167.79</file>
+<file name="@394_144.59.167.79_Disconnected">@394 144.59.167.79 Disconnected</file>
+<file name="@384_Connection:_from_144.59.167.79">@384 Connection: from 144.59.167.79</file>
+<file name="@365_144.59.167.79_Disconnected">@365 144.59.167.79 Disconnected</file>
+<file name="@352_Connection:_from_144.59.167.79">@352 Connection: from 144.59.167.79</file>
+<file name="@324_144.59.167.79_Disconnected">@324 144.59.167.79 Disconnected</file>
+<file name="@312_Connection:_from_144.59.167.79">@312 Connection: from 144.59.167.79</file>
+<file name="@293_144.59.167.79_Disconnected">@293 144.59.167.79 Disconnected</file>
+<file name="@285_Connection:_from_144.59.167.79">@285 Connection: from 144.59.167.79</file>
+<file name="@285_144.59.167.79_Disconnected">@285 144.59.167.79 Disconnected</file>
+<file name="@283_Connection:_from_144.59.167.79">@283 Connection: from 144.59.167.79</file>
+<file name="@263_144.59.167.79_Disconnected">@263 144.59.167.79 Disconnected</file>
+<file name="@255_Connection:_from_144.59.167.79">@255 Connection: from 144.59.167.79</file>
+<file name="@236_144.59.167.79_Disconnected">@236 144.59.167.79 Disconnected</file>
+<file name="@226_Connection:_from_144.59.167.79">@226 Connection: from 144.59.167.79</file>
+<file name="@210_144.59.167.79_Opened_Port#22">@210 144.59.167.79 Opened Port#22</file>
+<file name="@204_144.59.167.79_Disconnected">@204 144.59.167.79 Disconnected</file>
+<file name="@197_Connection:_from_144.59.167.79">@197 Connection: from 144.59.167.79</file>
+<file name="@186_144.59.167.79_Opened_Port#1433">@186 144.59.167.79 Opened Port#1433</file>
+<file name="@185_144.59.167.79_Opened_Port#80">@185 144.59.167.79 Opened Port#80</file>
+<file name="@174_144.59.167.79_Disconnected">@174 144.59.167.79 Disconnected</file>
+<file name="@121_Connection:_from_144.59.167.79">@121 Connection: from 144.59.167.79</file>
+<file name="@117_LOCAL_ADMIN_Closed_Port#1433">@117 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@117_144.59.167.79_Disconnected">@117 144.59.167.79 Disconnected</file>
+<file name="@117_Connection:_from_144.59.167.79">@117 Connection: from 144.59.167.79</file>
+<file name="@30_148.229.241.163_Opened_Port#1433">@30 148.229.241.163 Opened Port#1433</file>
+<file name="@20_148.229.241.163_Disconnected">@20 148.229.241.163 Disconnected</file>
+<file name="@3_Connection:_from_148.229.241.163">@3 Connection: from 148.229.241.163</file>
+<file name="@27443_232.53.138.148_Opened_Port#80">@27443 232.53.138.148 Opened Port#80</file>
+<file name="@27431_LOCAL_ADMIN_Closed_Port#1433">@27431 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@27431_232.53.138.148_Disconnected">@27431 232.53.138.148 Disconnected</file>
+<file name="@27421_Connection:_from_232.53.138.148">@27421 Connection: from 232.53.138.148</file>
+<file name="@27411_232.53.138.148_Opened_Port#1433">@27411 232.53.138.148 Opened Port#1433</file>
+<file name="@27402_232.53.138.148_Disconnected">@27402 232.53.138.148 Disconnected</file>
+<file name="@27389_Connection:_from_232.53.138.148">@27389 Connection: from 232.53.138.148</file>
+<file name="@27384_232.53.138.148_Disconnected">@27384 232.53.138.148 Disconnected</file>
+<file name="@27380_Connection:_from_232.53.138.148">@27380 Connection: from 232.53.138.148</file>
+<file name="@27380_232.53.138.148_Disconnected">@27380 232.53.138.148 Disconnected</file>
+<file name="@27264_Connection:_from_232.53.138.148">@27264 Connection: from 232.53.138.148</file>
+<file name="@27249_232.53.138.148_Disconnected">@27249 232.53.138.148 Disconnected</file>
+<file name="@27235_Connection:_from_232.53.138.148">@27235 Connection: from 232.53.138.148</file>
+<file name="@27231_LOCAL_ADMIN_Closed_Port#1433">@27231 LOCAL_ADMIN Closed Port#1433</file>
+<file name="@27231_LOCAL_ADMIN_Closed_Port#22">@27231 LOCAL_ADMIN Closed Port#22</file>
+<file name="@27231_LOCAL_ADMIN_Closed_Port#80">@27231 LOCAL_ADMIN Closed Port#80</file>
+<file name="@27231_232.53.138.148_Disconnected">@27231 232.53.138.148 Disconnected</file>
+<file name="@27231_Connection:_from_232.53.138.148">@27231 Connection: from 232.53.138.148</file>
+<file name="@27150_34.109.24.144_Opened_Port#80">@27150 34.109.24.144 Opened Port#80</file>
+<file name="@27139_34.109.24.144_Disconnected">@27139 34.109.24.144 Disconnected</file>
+<file name="@27127_Connection:_from_34.109.24.144">@27127 Connection: from 34.109.24.144</file>
+<file name="@27004_43.49.26.32_Opened_Port#22">@27004 43.49.26.32 Opened Port#22</file>
+<file name="@26999_43.49.26.32_Disconnected">@26999 43.49.26.32 Disconnected</file>
+<file name="@26987_Connection:_from_43.49.26.32">@26987 Connection: from 43.49.26.32</file>
+<file name="@26747_14.233.35.180_Opened_Port#1433">@26747 14.233.35.180 Opened Port#1433</file>
+<file name="@26737_14.233.35.180_Disconnected">@26737 14.233.35.180 Disconnected</file>
+<file name="@26724_Connection:_from_14.233.35.180">@26724 Connection: from 14.233.35.180</file>
+<file name="@26723_14.233.35.180_Disconnected">@26723 14.233.35.180 Disconnected</file>
+<file name="@26722_Connection:_from_14.233.35.180">@26722 Connection: from 14.233.35.180</file>
+<file name="@26719_LOCAL_ADMIN_Closed_Port#22">@26719 LOCAL_ADMIN Closed Port#22</file>
+<file name="@26719_14.233.35.180_Disconnected">@26719 14.233.35.180 Disconnected</file>
+<file name="@26718_Connection:_from_14.233.35.180">@26718 Connection: from 14.233.35.180</file>
+<file name="@26528_221.184.54.246_Opened_Port#22">@26528 221.184.54.246 Opened Port#22</file>
+<file name="@26522_221.184.54.246_Disconnected">@26522 221.184.54.246 Disconnected</file>
+<file name="@26514_Connection:_from_221.184.54.246">@26514 Connection: from 221.184.54.246</file>
 </folder>
 <folder name="bin">
 </folder>
@@ -36152,6 +36402,6 @@ http://angelus-hellion.deviantart.com
 </NetworkMap><mission next="NULL_MISSION" goals="none" activeCheck="none">
 </mission><branchMissions>
 </branchMissions><AllFactions current="hub">
-	<EntropyFaction name="Entropy" id="entropy" neededVal="5" playerVal="5" playerHasPassed="True" />	<Faction name="lelzSec" id="lelzSec" neededVal="1000" playerVal="0" playerHasPassed="False" />	<HubFaction name="CSEC" id="hub" neededVal="10" playerVal="4" playerHasPassed="False" />	
+	<EntropyFaction name="Entropy" id="entropy" neededVal="5" playerVal="5" playerHasPassed="True" />	<Faction name="lelzSec" id="lelzSec" neededVal="1000" playerVal="0" playerHasPassed="False" />	<HubFaction name="CSEC" id="hub" neededVal="10" playerVal="5" playerHasPassed="False" />	
 <CustomFaction name="DLC Faction" id="Bibliotheque" neededVal="100" playerVal="20" playerHasPassed="False" >
-</CustomFaction></AllFactions><other music="Music\TheAlgorithm" homeNode="mainHub" homeAssetsNode="mainHubAssets" /></HacknetSave>
+</CustomFaction></AllFactions><other music="Music/Traced" homeNode="mainHub" homeAssetsNode="mainHubAssets" /></HacknetSave>
